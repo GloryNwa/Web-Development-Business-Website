@@ -34,6 +34,30 @@
             <div class="container">
               <div class="row">
                 <div class="span6">
+                  <img src="img/slides/camera/slide1/teach.PNG" alt="" style=" margin-bottom: 40px !important" />
+                </div>
+                <div class="span6">
+                   <h2 class="animated fadeInDown"><strong style="color:#fff">Hello, <span class="colored" style="color:#ff5821">We are Brilliant Developers</span></strong></h2>
+                  <p class="animated fadeInUp" style="font-size:16px !important; color:#fff"> We Design, Develop & Program Web Bases Applications with quality features. We are Creative and Passionate, an oustanding web solution company in Nigeria.
+
+               We help you imagine, design, develop & program brilliant digital experiences that make you and your users happy. We accept the complicated.</p>
+                  <a href="contact.php" class="btn btn-theme btn-large  animated fadeInUp" style="background-color:#ff5821">
+                      <i class="icon-pencil"></i> &nbsp; Get a Quote
+                    </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        <!-- slide 2 here -->
+      
+        <div data-src="img/buildings.png">
+          <div class="camera_caption fadeFromLeft">
+            <div class="container">
+              <div class="row">
+                <div class="span6">
                   <h2 class="animated fadeInDown"><strong style="color:#fff">Expand your Business with  <span class="colored" style="color:#ff5821">Innovative Web Solutions</span></strong></h2>
                   <p class="animated fadeInUp"style="font-size:16px !important; color: #fff">  
                    As Brilliant Web Developers, we help you translate your business needs into an efficient web application
@@ -53,29 +77,6 @@
           </div>
         </div>
 
-        <!-- slide 2 here -->
-      <div data-src="img/buildings.png">
-          <div class="camera_caption fadeFromLeft">
-            <div class="container">
-              <div class="row">
-                <div class="span6">
-                  <img src="img/slides/camera/slide1/desc2.png" alt="" style=" margin-bottom: 40px !important" />
-                </div>
-                <div class="span6">
-                   <h2 class="animated fadeInDown"><strong style="color:#fff">Hello, <span class="colored" style="color:#ff5821">We are Brilliant Developers</span></strong></h2>
-                  <p class="animated fadeInUp" style="font-size:16px !important; color:#fff"> We Design, Develop & Program Web Bases Applications with quality features. We are Creative and Passionate, an oustanding web solution company in Nigeria.
-
-               We help you imagine, design, develop & program brilliant digital experiences that make you and your users happy. We accept the complicated.</p>
-                  <a href="contact.php" class="btn btn-theme btn-large  animated fadeInUp" style="background-color:#ff5821">
-                      <i class="icon-pencil"></i> &nbsp; Get a Quote
-                    </a>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
         <!-- slide 3 here -->
           <div data-src="img/buildings.png">
           <div class="camera_caption fadeFromLeft">
@@ -83,7 +84,7 @@
               <div class="row">
                 <div class="span12 aligncenter">
                   <h2 class="animated fadeInDown"><strong style="color:#fff"><span class="colored" style="color:#ff5821">Responsive</span> and <span class="colored" style="color:#ff5821">Cross Broswer</span> Compatibility</strong></h2>
-                  <p class="animated fadeInUp" style="font-size:16px !important; color:#fff">We are brillant developers, we know how internet browsers work. Between Firefox, Chrome, Safari, Opera, and<br> Internet Explorer. We can asure you that your web page will look good and work correctly on every browser. <br>We understand the logic behind cross browser compatibility.</p>
+                  <p class="animated fadeInUp" style="font-size:16px !important; color:#fff">We are brillant developers, we know how internet browsers work. Between Firefox, Chrome, Safari, Opera, and<br> Internet Explorer. We can asure you that your web pages will look good and display correctly on every browser. <br>We understand the logic behind cross browser compatibility.</p>
                   <img src="img/slides/camera/slide3/browsers.png" alt="" class="animated bounceInDown delay1" />
                 </div>
               </div>
@@ -96,7 +97,7 @@
             <div class="container">
               <div class="row">
                 <div class="span6">
-                  <img src="img/slides/camera/slide2/iMac.png" alt="" />
+                  <img src="img/slides/camera/slide2/maaa.PNG" alt="" />
                 </div>
                 <div class="span6">
                    <h2 class="animated fadeInDown"><strong style="color:#fff">Easy <span class="colored" style="color:#ff5821">Management</span></strong></h2>
@@ -198,8 +199,9 @@
 
         <hr>
      <?php include("ourPlans.php");?> 
-       <hr>
+     
       <?php include("training.php");?>
         <br><br>
        <hr>
+       
 <?php include("footer3.php");?>

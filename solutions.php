@@ -25,7 +25,7 @@
         <div class="row">
           <div class="span6">
             <div class="flyLeft">
-            <h5>Our Solutions <span class="colored"></span></h5>
+            <h5><b>Our Solutions</b><span class="colored"></span></h5>
            <p> We are Brilliant Developers, we Provide
 Solutions that
 brings Joy.
@@ -52,29 +52,32 @@ We have everything you need to launch and grow a successful digital business.</p
             <!--   We are Cutting-edge Brilliant Web Solutions and social media marketing expert, we can promote you product and provide daily google analytist report. 
               <p>We are Cutting-edge Brilliant Web Solutions that work with multinationals, SMEs, and start-ups. We are dedicated to producing the highest quality results on a modest budget.</p> --><!--  If you are looking for digital marketing agencies to consult in Nigeria look no further than Brilliant Developers. -->
               <p>
-              <p>We are Smart, Intelligent and Brilliant. We are Technology Enthusiasts, Designers, Social Community Managers, Innovative and Creative Change-makers using technology to create more memorable digital experiences for brands across the African continent and beyond.</p>
+              <p>We are Smart, Intelligent and Brilliant. We are Techie, Technology Enthusiasts, Designers, Social Community Managers, Innovative and Creative Change-makers using technology to create more memorable digital experiences for brands across the African continent and beyond.</p>
 
              <!--  <p>We combines consumer research, creativity, and insight to transform your business.</p> -->
 
-              <p>Brilliant Developers is on a mission to help businesses succeed through exceptional digital services. We focus on real world results.</p>
+              <p>Brilliant Developers is on a mission to help businesses succeed through exceptional digital services.
+                 We focus on real world results.</p>
              
                
               <p>
-                  <!-- encourages individuals to pass on a marketing message to others, creating the potential for exponential growth in the message’s exposure and influence. --> Below are some of the solutions we offers:
+                  <!-- encourages individuals to pass on a marketing message to others, creating the potential for exponential growth in the message’s exposure and influence. -->
+                <b> Below are some of the solutions we offers:</b>
                 <ul>
                 <li>Web Design, Development & Programming</li>
                  <li>Website Maintainance & Upgrade</li>
                   <li>Content Management System</li>
-                  <li>Web Development Training</li>
-                   <li>Web-Based Application</li>
-                  <li>Content Development</li>
-                  
+                  <li>Portals</li>  
                   <li>Digital Marketing</li>
                   <li>Website Hosting</li>
-                  <li>Logo Design</li>
-                  <li>Wordpress</li>
-                  <li>Portals</li>      
-            
+                  <li>Logo Design</li>             
+                  <li>Web Development Training</li>
+                   <li>Web-Based Application</li>
+                   <li>Wordpress</li>
+                   <li>Script Writting</li>
+                  <li>Content Development</li>
+                  <li>Digital Social Media Marketing</li>
+                 
                </ul>
         
               </p>
@@ -88,7 +91,7 @@ We have everything you need to launch and grow a successful digital business.</p
         </div>
         <div class="row">
           <div class="span12">
-            <div class="solidline"></div>
+            <!-- <div class="solidline"></div> -->
           </div>
         </div>
         <?php include ("training.php");?>

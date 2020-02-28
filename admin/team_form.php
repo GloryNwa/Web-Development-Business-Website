@@ -18,7 +18,7 @@ if(!isset($_SESSION['password']) || $_SESSION['password'] != 'richgirlforever') 
 ob_start();
 
 
-if(isset($_POST['name'])&&isset($_POST['post'])&&isset($_POST['twitter'])&&isset($_POST['facebook'])&&isset($_POST['instagram'])&&isset($_POST['git'])&&isset($_FILES['file'])){
+if(isset($_POST['name'])&&isset($_POST['post'])&&isset($_POST['linkedin'])&&isset($_POST['twitter'])&&isset($_POST['facebook'])&&isset($_POST['instagram'])&&isset($_POST['git'])&&isset($_FILES['file'])){
   
 
       $name     = $_POST['name'];
@@ -27,6 +27,7 @@ if(isset($_POST['name'])&&isset($_POST['post'])&&isset($_POST['twitter'])&&isset
       $facebook = $_POST['facebook'];
       $instagram = $_POST['instagram'];
       $git      = $_POST['git'];
+      $linkedin = $_POST['linkedin'];
       $file     = $_FILES['file'];
 
 
@@ -45,10 +46,11 @@ if(isset($_POST['name'])&&isset($_POST['post'])&&isset($_POST['twitter'])&&isset
 
             if(move_uploaded_file($tmp_file, $upload_dir."/".$target_file)){
                             
-                $sql = "INSERT INTO team(name, position, twitter, facebook, instagram, github, pics, time)";
+                $sql = "INSERT INTO team(name, position, linkedin, twitter, facebook, instagram, github, pics, time)";
                 $sql .= "VALUES(  
                      '".mysqli_real_escape_string($connection,$name)."',
                      '".mysqli_real_escape_string($connection,$post)."', 
+                     '".mysqli_real_escape_string($connection,$linkedin)."',
                      '".mysqli_real_escape_string($connection,$twitter)."',
                      '".mysqli_real_escape_string($connection,$facebook)."', 
                      '".mysqli_real_escape_string($connection,$instagram)."', 
@@ -107,6 +109,10 @@ if(isset($_POST['name'])&&isset($_POST['post'])&&isset($_POST['twitter'])&&isset
                                 <label>Position</label>
                                 <input type="text" name="post" class="form-control"required="">
                            </div>
+                           <div class="form-group">
+                            <label>linkedIn</label>
+                            <input type="text" name="linkedin" class="form-control">
+                        </div>
                            <div class="form-group">
                             <label>Twitter</label>
                             <input type="text" name="twitter" class="form-control">

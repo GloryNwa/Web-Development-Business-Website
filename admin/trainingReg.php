@@ -96,6 +96,7 @@ if(!isset($_SESSION['password']) || $_SESSION['password'] != 'richgirlforever') 
                                             <th>Email</th>
                                             <th>Phone</th>
                                              <th>Location</th>
+                                             <th>Amount</th>
                                             <th>Message</th>
                                             <th>Time</th>
                                         </tr>
@@ -112,6 +113,7 @@ if(!isset($_SESSION['password']) || $_SESSION['password'] != 'richgirlforever') 
                                       $email = $query_row['email'];
                                       $phone = $query_row['phone'];
                                       $locate = $query_row['location'];
+                                      $amt = $query_row['amount'];
                                       $msg    = $query_row['message'];
                                       $time    = $query_row['time'];
                                      
@@ -124,8 +126,9 @@ if(!isset($_SESSION['password']) || $_SESSION['password'] != 'richgirlforever') 
                                             <td><?php echo $lname;?></td>
                                             <td><?php echo $email;?></td>
                                             <td><?php echo $phone;?></td>
-                                            <td><?php echo $locate;?></td>
+                                            <td><?php echo $locate;?></td>  
                                             <td><?php echo $msg;?></td>
+                                            <td><?php echo $amt;?></td>
                                             <td><?php echo $time;?></td>
                                         </tr>
                                         <?php

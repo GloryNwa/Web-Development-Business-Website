@@ -3,7 +3,7 @@ include("db.php");
 ob_start();
 
 if(isset($_POST["submit"])){
-
+  $plan = $_POST["plan"];
   $name = $_POST["name"];
   $email = $_POST['email'];
   $phone = $_POST["phone"];
@@ -11,10 +11,11 @@ if(isset($_POST["submit"])){
   $budget = $_POST['budget'];
   $message = $_POST['message'];
 
-  if(!empty($name)&&!empty($email)&&!empty($phone)&&!empty($company)&&!empty($budget)&&!empty($message)){
+  if(!empty($name)&&!empty($plan)&&!empty($email)&&!empty($phone)&&!empty($company)&&!empty($budget)&&!empty($message)){
 
-    $sql = "INSERT INTO contacts( name, email, phone, company, budget, message, time)";
-    $sql .= "VALUES(  
+    $sql = "INSERT INTO contacts(plan, name, email, phone, company, budget, message, time)";
+    $sql .= "VALUES(
+       '".mysqli_real_escape_string($connection,$plan)."',  
          '".mysqli_real_escape_string($connection,$name)."',
          '".mysqli_real_escape_string($connection,$email)."', 
          '".mysqli_real_escape_string($connection,$phone)."', 
@@ -69,11 +70,20 @@ if(isset($_POST["submit"])){
 
              ?>
              </div>
-            <h4 style="color:#fff">Lets take your business to the next level >>>>>></h4>
+            <h4 style="color:#fff">Lets take your business to the next level >>>></h4>
            <!--  <div id="errormessage"></div> -->
             <form action="contact.php" method="POST" class="contactForm">
 
               <div class="row">
+              <div class="span8 form-group">
+                <select name="plan" required="" placeholder="Select Plan" style="width:100%;height:40px;margin-top:0px">
+                          <option value="">Select Plan</option>
+                           <option value="Basic">Basic One-Page Website</option>
+                           <option value="Start-Up">Startup Up to 10 pages</option>
+                           <option value="Established">Established Up to 30 pages</option>
+                           <option value="Online-Shop">Online Shop</option>
+                     </select>
+                </div>
                 <div class="span4 form-group field">
                   <input type="text" name="name" placeholder="Your Full Name" required style="border: 1px solid #ff5821" />
                   
@@ -96,6 +106,7 @@ if(isset($_POST["submit"])){
                   <input type="text" name="budget" id="subject" placeholder="Your Budget" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" required style="border: 1px solid #ff5821" />
                   <div class="validation"></div>
                 </div>
+                
                 <div class="span8 form-group">
                   <textarea name="message" rows="5" data-rule="required" data-msg="Please write something for us"
                     placeholder="Message" required style="border: 1px solid #ff5821"></textarea>
@@ -118,7 +129,7 @@ if(isset($_POST["submit"])){
                 <!--   <li><label>Address :</label> Tinggi sekali tower Jl.Kemacetan timur<br /> Jakarta selatan - Indonesia</li> -->
                   <li><label style="color:#ff5821">Phone :</label>+2347068057873 / +2348137434299</li>
            <!--        <li><label>Fax : </label>+62 123 456 10 / +62 123 456 11</li> -->
-                  <li><label style="color:#ff5821">Email : </label>contact@brilliantdevelopers.net <br> glorynwa@gmail.com</li>
+                  <li><label style="color:#ff5821">Email : </label>contact@brilliantdevelopers.net <br> techiebabes@gmail.com</li>
                 </ul>
 
               </div>

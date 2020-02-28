@@ -117,7 +117,7 @@
           <div class="span12">
             <div class="inner-heading">
               <ul class="breadcrumb">
-      <li><a href="index.php"style="color:#ff5821 !important">Home</a><i class="icon-angle-right"></i>
+      <li><a href="index.php"style="color:#ff5821 !important"> Home &nbsp;</a><i class="icon-angle-right"></i>
                 
                  <li class="active"> </li></a>&nbsp;|&nbsp;
                  <a href="about.php"><li style="color:#ff5821">About Us</li></a>&nbsp;|&nbsp;
@@ -142,6 +142,7 @@
               <li class="icon"><a href="#" title="">Programming</a></li>
               <li class="graphic"><a href="#" title="">Logo Design</a></li>
                <li class="graphic"><a href="#" title="">Web Hosting</a></li>
+               <li class="graphic"><a href="#" title="">Script Writting</a></li>
                <li class="graphic"><a href="#" title="">Digital Marketing</a></li>
                 <li class="graphic"><a href="#" title="">Content Development</a></li>
             </ul>
@@ -162,7 +163,7 @@
               ?>
 
            <div class="col-md-4">
-           <div class="card card-product" style="height: 290px; margin-bottom:100px">
+           <div class="card card-product" style="height: 300px; margin-bottom:100px">
             <div class="card-header card-header-image" data-header-animation="true">
 
              
@@ -181,7 +182,7 @@
                     
                 </div>
                 <h4 class="card-title">
-                <div class="card-description">
+                <div class="card-description" style="font-size:15px; color:#000">
                     <?php echo $desc;?>
                 </div>
             </div>

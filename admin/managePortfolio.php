@@ -108,12 +108,12 @@ if(!isset($_SESSION['password']) || $_SESSION['password'] != 'richgirlforever') 
                                               <h4 class="date"><?php echo (substr($site,0,100))?></h4>
                                                    <ul class="nav nav-pills">
                                                   <li role="presentation">
-                                                     <a href="editPortfolio.php?id=<?php echo $query_row['id']; ?>"
+                                                     <a href="editPortfolio.php?id=<?php echo $query_row['id']; ?>">
                                                       <span class="fa fa-pencil" style="color:#009efb;"> Edit</span>  
                                                      </a><br><br><br>
                                                   </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                    <li role="presentation">
-                                                      <a onclick="return confirm('Are you really sure?')" href="deletePortfolio.php?id=<?php echo $query_row['id']; ?>"
+                                                      <a onclick='return confirm("Are you really sure?")' href='deletePortfolio.php?id=<?php echo $query_row['id']; ?>'>
                                                        <span class="fa fa-trash" style="color:red;"> Delete</span> 
                                                       </a>
                                                   </li>

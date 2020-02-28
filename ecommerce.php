@@ -99,7 +99,7 @@ span{
                   <li> Pay in Store</li>
                   <li>Pay on Delivery</li>
                   <li> Bank Transfer/Deposit</li>
-                  <li>Online Payment (Interswitch, Paypal, Paystack, Quickteller,  GlobalPay, Fidelity PayGate, etc.)</li>
+                  <li>Online Payment (Interswitch, Paypal, Paystack, Quickteller)</li>
                    <!-- <li>Establish your company in local search</li>
                   <li>Establish your brand/business on social media</li>
                   <li>Online reputation management</li> -->
@@ -113,11 +113,9 @@ span{
         </div>
         <div class="row">
           <div class="span12">
-            <div class="solidline"></div>
+            <!-- <div class="solidline"></div> -->
           </div>
         </div>
-       <br>     
-       <br>
         <?php include ("training.php");?>
 
        <hr>

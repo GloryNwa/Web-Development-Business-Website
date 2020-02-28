@@ -24,9 +24,9 @@
         <div class="row">
 
           <div class="span12">
-            <h4 class="title">WHAT WE DO</h4>
+            <h4 class="title"><b>WHAT WE DO</b></h4>
             <p>
-              Brilliant Developers specializes in website Design, Development, Programming and Digital Martketing services. Our web experiences are high-performing, feature-packed and digitally transformative. We provides Expert Web Solution Services to our clients.
+              Brilliant Developers specializes in website Design, Development, Programming, Digital and Social Media Martketing services. Our web experiences are high-performing, feature-packed and digitally transformative. We provides Expert Web Solution Services to our clients.
             </p>
           </div>
         </div>
@@ -92,7 +92,7 @@
             <div class="service-box aligncenter flyLeft"  style="height: 410px;overflow: scroll">
               <div class="icon"></div>
 
-         <h5>Digital Marketing <span class="colored"></span></h5>
+         <h5>Digital & Social Media Marketing <span class="colored"></span></h5>
               <p>
                 Digital marketing at Brilliant Developers is planned and executed based on objectives  <!-- encourages individuals to pass on a marketing message to others, creating the potential for exponential growth in the message’s exposure and influence. -->
                 <p>These include:</p>

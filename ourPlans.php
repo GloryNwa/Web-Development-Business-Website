@@ -40,16 +40,16 @@
                   </div>
               
                 <div class="pricing-terms">
-                    <h6>₦70,000</h6>
+                    <h6>₦80,000</h6>
                   </div>
                   <div class="pricing-content">
                     <ul> 
                       <li><i class="icon-ok"></i> Well designed and dynamic, just 1 page website</li>
                        <li><i class="icon-ok"></i>You can add additional pages later</li>
                         <li><i class="icon-ok"></i>I year Hosting Plan and a <br> Domain Registration +SSL Certificate</li> 
-                        <li><i class="icon-ok"></i>Custom Website Email - As Many As Possible</li>
+                        <li><i class="icon-ok"></i>Custom Website Email - Up to 2 Emails</li>
                         <li><i class="icon-ok"></i>Admin Management Dashboard</li>
-                       <li><i class="icon-ok"></i> 24x7 support available</li>
+                       <li><i class="icon-ok"></i> 24x7 support system</li>
                        <li><i class="icon-ok"></i> Free 1-month update</li>
                    <!--     <li><i></i></li> -->
                     <!--    <li><i></i></li> -->
@@ -82,10 +82,10 @@
                       <li><i class="icon-ok"></i>Well designed & dynamic, up to 10 pages website</li>
                        <li><i class="icon-ok"></i>You can add additional pages later</li>
                        <li><i class="icon-ok"></i>I year Hosting Plan and a <br> Domain Registration + SSL Certificate</li>
-                       <li><i class="icon-ok"></i>Site Capacity Storage - Unlimited</li>
-                       <li><i class="icon-ok"></i>Custom Website Email - As Many As Possible</li>
+                       <li><i class="icon-ok"></i>Site Capacity Storage - Limited</li>
+                       <li><i class="icon-ok"></i>Custom Website Email - Up to 5 Emails</li>
                        <li><i class="icon-ok"></i>Admin Management Dashboard</li> 
-                      <li><i class="icon-ok"></i> 24x7 support available</li>
+                      <li><i class="icon-ok"></i> 24x7 support system</li>
                       <li><i class="icon-ok"></i> Free 2-months update</li>
 
 
@@ -110,7 +110,7 @@
                      <strong class="plans" id="pages">Established Up to 30 pages </strong></h5>
                   </div>
                   <div class="pricing-terms">
-                    <h6>₦270,000</h6>
+                    <h6>₦280,000</h6>
                   </div>
                   <div class="pricing-content">
                     <ul>
@@ -118,10 +118,10 @@
                        <li><i class="icon-ok"></i>You can add additional pages later</li>
                        <li><i class="icon-ok"></i>I year Hosting Plan and <br> Domain Registration + SSL Certificate and Files Backup</li>
                        <li><i class="icon-ok"></i>Site Capacity Storage - Unlimited</li>
-                       <li><i class="icon-ok"></i>Custom Website Email - As Many As Possible</li>
+                       <li><i class="icon-ok"></i>Custom Website Email - As Many As 10 Emails</li>
                         <li><i class="icon-ok"></i>Content Management System + <br>Visitors Analytics</li>
                         <li><i class="icon-ok"></i>Live Chat</li>
-                      <li><i class="icon-ok"></i> 24x7 support available</li>
+                      <li><i class="icon-ok"></i> 24x7 support system</li>
                       <li><i class="icon-ok"></i> Free 3-months update</li>
                       <p></p>
                     </ul>
@@ -152,8 +152,8 @@
                        <li><i class="icon-ok"></i>Custom Website Email - As Many As Possible</li>
                       <li><i class="icon-ok"></i>Content Management System +<br>Visitors Analytics</li>
                       <li><i class="icon-ok"></i>Live chat</li> 
-                      <li><i class="icon-ok"></i> 24x7 support available</li>
-                      <li><i class="icon-ok"></i> Free 4-months update</li>
+                      <li><i class="icon-ok"></i> 24x7 support system</li>
+                      <li><i class="icon-ok"></i> Free 3-months update</li>
                    
                     <p></p>
                     </ul>

@@ -28,6 +28,8 @@
                   </div> -->
                   <div class="text">
                     <h4> <strong>Privacy Policy of Brilliant Developers.</strong></h4>
+                    <h6>Welcome to Brilliant Developers!</h6>
+                     <br>
                     
 <div style="border: 10px dotted; padding: 15px;  background-color:">                
 

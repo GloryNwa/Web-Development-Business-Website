@@ -14,7 +14,7 @@ if(!isset($_SESSION['password']) || $_SESSION['password'] != 'richgirlforever') 
 
 <?php
      $id  = $_GET['id'];
-         $query = "SELECT name, pics, position, twitter, facebook,instagram, github FROM team WHERE id='$id'";
+         $query = "SELECT name, pics, position, linkedin, twitter, facebook,instagram, github FROM team WHERE id='$id'";
 
           if ($query_run = mysqli_query($connection, $query)) {
 
@@ -26,6 +26,7 @@ if(!isset($_SESSION['password']) || $_SESSION['password'] != 'richgirlforever') 
               $instagram = $row['instagram'];
               $git      = $row['github'];
               $file     = $row['pics'];
+              $linkedin = $row['linkedin'];
       }
     }
   ?>
@@ -33,11 +34,12 @@ if(!isset($_SESSION['password']) || $_SESSION['password'] != 'richgirlforever') 
 
 <?php
 $id  = $_GET['id'];
- if(isset($_POST['name'])&&isset($_POST['post'])&&isset($_POST['twitter'])&&isset($_POST['facebook'])&&isset($_POST['instagram'])&&isset($_POST['git'])&&isset($_FILES['file'])){
+ if(isset($_POST['name'])&&isset($_POST['post'])&&isset($_POST['linkedin'])&&isset($_POST['twitter'])&&isset($_POST['facebook'])&&isset($_POST['instagram'])&&isset($_POST['git'])&&isset($_FILES['file'])){
   
 
       $name     = $_POST['name'];
       $post     = $_POST['post'];
+      $linkedin = $row['linkedin'];
       $twitter  = $_POST['twitter'];
       $facebook = $_POST['facebook'];
       $git      = $_POST['git'];
@@ -57,7 +59,7 @@ $id  = $_GET['id'];
             if(move_uploaded_file($tmp_file, $upload_dir."/".$target_file)){
                             
 
-         $query = "UPDATE team SET name = '".$name."', position = '".$post."', twitter = '".$twitter."', facebook = '".$facebook."',instagram = '".$instagram."', github = '".$git."', pics = '".$target_file."' WHERE id=$id";
+         $query = "UPDATE team SET name = '".$name."', position = '".$post."', linkedin = '".$linkedin."', twitter = '".$twitter."', facebook = '".$facebook."',instagram = '".$instagram."', github = '".$git."', pics = '".$target_file."' WHERE id=$id";
             $result = mysqli_query($connection, $query);
             if(!$result){
               echo ("Query Failed" . mysqli_error($connection));exit;
@@ -107,6 +109,10 @@ $id  = $_GET['id'];
                                 <input type="text" name="post" class="form-control" value="<?php echo $post;?>">
                            </div>
                            <div class="form-group">
+                            <label>Linkedin</label>
+                            <input type="text" name="linkedin" class="form-control" value="<?php echo $linkedin;?>">
+                        </div>
+                           <div class="form-group">
                             <label>Twitter</label>
                             <input type="text" name="twitter" class="form-control" value="<?php echo $twitter;?>">
                         </div>
@@ -128,7 +134,7 @@ $id  = $_GET['id'];
                                 <input type="file" name="file" class="form-control" value="<?php echo 'teamPics/' .$pic;?>" alt="" width="80px" hieght="80px" >
                            </div>
 
-                                <button type="submit" class="btn btn-danger btn-flat m-b-30 m-t-30">UPLOAD</button>
+                                <button type="submit" class="btn btn-danger btn-flat m-b-30 m-t-30">UPDATE</button>
                           </form>
                     </div>
               </div>

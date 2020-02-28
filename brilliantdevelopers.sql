@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.0.1
+-- version 4.7.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 13, 2020 at 11:32 PM
--- Server version: 10.1.32-MariaDB
--- PHP Version: 5.6.36
+-- Generation Time: Feb 28, 2020 at 03:27 PM
+-- Server version: 10.1.25-MariaDB
+-- PHP Version: 7.1.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -50,6 +50,7 @@ INSERT INTO `admin` (`id`, `email`, `password`, `time`) VALUES
 
 CREATE TABLE `contacts` (
   `id` int(11) NOT NULL,
+  `plan` text NOT NULL,
   `name` text NOT NULL,
   `email` text NOT NULL,
   `phone` text NOT NULL,
@@ -63,19 +64,22 @@ CREATE TABLE `contacts` (
 -- Dumping data for table `contacts`
 --
 
-INSERT INTO `contacts` (`id`, `name`, `email`, `phone`, `company`, `budget`, `message`, `time`) VALUES
-(1, 'Glory Adex', 'gloadex1@gmail.com', '0908765432', 'Adex and Sons Ltd', '150,000', 'I will like to meet you face to faace. Thank you!', '0000-00-00 00:00:00.000000'),
-(2, 'Glory Adex', 'gloadex1@gmail.com', '0908765432', 'Adex and Sons Ltd', '150,000', 'I will like to meet you face to faace. Thank you!', '0000-00-00 00:00:00.000000'),
-(3, 'Edet Christian', 'edyy@gmail.com', '09089876557', 'Mobil', '160,000', 'I will like to see you!', '2019-10-13 21:20:20.000000'),
-(4, 'Glory Nwa', 'glorynwa@gmail.com', '+2347068057873', 'Ceflix Scepter', '160,000', 'i will see you', '2019-10-13 21:24:32.000000'),
-(5, 'Glory Nwa', 'glorynwa@gmail.com', '+2347068057873', 'Ceflix Scepter', '160,000', 'i will love to meet you!', '2019-10-13 21:25:53.000000'),
-(6, 'Gloria2wwee Nwaaaaaaaaaaaa', 'glorynwa@gmail.com', '07068057873', 'Ceflix Scepter', '160,000', 'wwww', '2019-10-13 21:28:24.000000'),
-(7, 'Gloria2wwee Nwaaaaaaaaaaaa', 'glorynwa@gmail.com', '07068057873', 'Ceflix Scepter', '160,000', 'qqqqqqqqqq', '2019-10-13 21:29:17.000000'),
-(8, 'Gloria22222222 Nwaaaaaaaaaaaa', 'glorynwa@gmail.com', '07068057873', 'Ceflix Scepter', '160,000', 'aaaaaaaaaaa', '2019-10-13 21:29:55.000000'),
-(9, 'ESSIEN444444 ALEX', 'glorynwa@gmail.com', '07068057873', 'Ceflix Scepter', '160,000', 'rrrrrrrrrr', '2019-10-13 21:41:56.000000'),
-(10, 'Glory Nwa', 'glorynwa@gmail.com', '+2347068057873', 'Ceflix Scepter', '160,000', 'eeeeeeeeeee', '2019-10-13 22:25:09.000000'),
-(11, 'Gloria22222222 Nwaaaaaaaaaaaa', 'glorynwa@gmail.com', '07068057873', 'Ceflix Scepter', '160,000', 'wwwwwwwwwwwwwwwwww', '2019-10-13 22:26:00.000000'),
-(12, 'ESSIEN11111111 ALEX', 'glorynwa@gmail.com', '07068057873', 'Ceflix Scepter', '160,000', 'wwwwwwwwwwwww', '2019-10-13 22:26:28.000000');
+INSERT INTO `contacts` (`id`, `plan`, `name`, `email`, `phone`, `company`, `budget`, `message`, `time`) VALUES
+(1, '', 'Glory Adex', 'gloadex1@gmail.com', '0908765432', 'Adex and Sons Ltd', '150,000', 'I will like to meet you face to faace. Thank you!', '0000-00-00 00:00:00.000000'),
+(2, '', 'Glory Adex', 'gloadex1@gmail.com', '0908765432', 'Adex and Sons Ltd', '150,000', 'I will like to meet you face to faace. Thank you!', '0000-00-00 00:00:00.000000'),
+(3, '', 'Edet Christian', 'edyy@gmail.com', '09089876557', 'Mobil', '160,000', 'I will like to see you!', '2019-10-13 21:20:20.000000'),
+(4, '', 'Glory Nwa', 'glorynwa@gmail.com', '+2347068057873', 'Ceflix Scepter', '160,000', 'i will see you', '2019-10-13 21:24:32.000000'),
+(5, '', 'Glory Nwa', 'glorynwa@gmail.com', '+2347068057873', 'Ceflix Scepter', '160,000', 'i will love to meet you!', '2019-10-13 21:25:53.000000'),
+(6, '', 'Gloria2wwee Nwaaaaaaaaaaaa', 'glorynwa@gmail.com', '07068057873', 'Ceflix Scepter', '160,000', 'wwww', '2019-10-13 21:28:24.000000'),
+(7, '', 'Gloria2wwee Nwaaaaaaaaaaaa', 'glorynwa@gmail.com', '07068057873', 'Ceflix Scepter', '160,000', 'qqqqqqqqqq', '2019-10-13 21:29:17.000000'),
+(8, '', 'Gloria22222222 Nwaaaaaaaaaaaa', 'glorynwa@gmail.com', '07068057873', 'Ceflix Scepter', '160,000', 'aaaaaaaaaaa', '2019-10-13 21:29:55.000000'),
+(9, '', 'ESSIEN444444 ALEX', 'glorynwa@gmail.com', '07068057873', 'Ceflix Scepter', '160,000', 'rrrrrrrrrr', '2019-10-13 21:41:56.000000'),
+(10, '', 'Glory Nwa', 'glorynwa@gmail.com', '+2347068057873', 'Ceflix Scepter', '160,000', 'eeeeeeeeeee', '2019-10-13 22:25:09.000000'),
+(11, '', 'Gloria22222222 Nwaaaaaaaaaaaa', 'glorynwa@gmail.com', '07068057873', 'Ceflix Scepter', '160,000', 'wwwwwwwwwwwwwwwwww', '2019-10-13 22:26:00.000000'),
+(12, '', 'ESSIEN11111111 ALEX', 'glorynwa@gmail.com', '07068057873', 'Ceflix Scepter', '160,000', 'wwwwwwwwwwwww', '2019-10-13 22:26:28.000000'),
+(13, '', 'ESSIEN444444 ALEX', 'glorynwa@gmail.com', '07068057873', 'Ceflix Scepter', '160,000', 'yyyyyyyyyyyy', '2020-01-30 18:49:03.000000'),
+(14, 'Startup Up', 'Itoro', 'itoro@yahoo.com', '07068057873', 'OFTP', '120,000', 'I will like to meet you one on one', '2020-01-31 22:30:50.000000'),
+(15, 'Established', 'ESSIEN ALEX', 'glorynwa@gmail.com', '07068057873', 'Ceflix Scepter', '120,000', 'fdddddd', '2020-01-31 22:33:39.000000');
 
 -- --------------------------------------------------------
 
@@ -119,13 +123,13 @@ CREATE TABLE `recentjobs` (
 INSERT INTO `recentjobs` (`id`, `site`, `description`, `picture`) VALUES
 (1, 'http://www.sexwomanandgod.com', 'An online book site build to show case an ebook', 'sex.PNG'),
 (2, 'http://www.diakrino.com', '', 'cms0.png'),
-(3, 'https://www.deohub.com', '', 'des.png'),
+(3, 'https://www.deohub.com', 'Online learning site. Designed, developed and programmed by Brilliant Developers', 'des.png'),
 (6, 'https://www.polizis.com', '', 'polizis.PNG'),
-(7, 'https://www.polizis.com', 'Online store developed and manage by us with fully integrated card payment facility, CMS etc.', 'Capture.PNG'),
+(7, 'https://www.polizis.com', 'Online store developed and manage by us with fully integrated card payment facility, CMS.', 'Capture.PNG'),
 (8, 'http://www.diakrino.com', 'Beautiful website designed, developed and programmed by us for oil and gas industry.', 'diakrino.PNG'),
 (9, 'https://www.sexwomanandgod.com', 'eBook site designed, developed and programmed by us.', 'sex.PNG'),
-(10, 'https://frontlineinteriors.com', 'Interior decoration site and online store with fully integrated with card payment facility', 'frontline.PNG'),
-(12, 'https://frontlineinteriors.net', 'Interior decoration site and online store with fully integrated with card payment facility', 'Capture.PNG');
+(10, 'https://frontlineinteriors.com', 'Interior decoration site and online store, fully integrated with card payment facility', 'frontline.PNG'),
+(12, 'https://polizis.com', 'e-Commerce site and online store. Fully integrated with card payment facility', 'Capture.PNG');
 
 -- --------------------------------------------------------
 
@@ -184,6 +188,7 @@ CREATE TABLE `team` (
   `id` int(11) NOT NULL,
   `name` text NOT NULL,
   `position` text NOT NULL,
+  `linkedin` text NOT NULL,
   `twitter` text,
   `facebook` text NOT NULL,
   `instagram` text NOT NULL,
@@ -196,11 +201,14 @@ CREATE TABLE `team` (
 -- Dumping data for table `team`
 --
 
-INSERT INTO `team` (`id`, `name`, `position`, `twitter`, `facebook`, `instagram`, `github`, `pics`, `time`) VALUES
-(7, 'Ibukun Agboola', 'Senior Web Developer', '', '', '', NULL, 'IBK2.jpg', '2019-10-03 22:26:53.000000'),
-(8, 'Uzo Abiaka', 'Social Media Marketing Specialist', '', '', '', NULL, 'uzo1.jpg', '2019-10-25 00:31:25.026131'),
-(9, 'Glory Nwa', 'Senior Web Developer', '', 'https://web.facebook.com/GloryNwa', '', 'https://github.com/GloryNwa/', 'gil_1.jpg', '2019-10-03 23:10:19.000000'),
-(10, 'Femi Dasilva', 'Digital Marketing Head', '', 'https://web.facebook.com/femi Dasilva', 'https://instagram.com/femidasilva17', '', 'pstFemi.jpg', '2019-10-25 00:25:19.429220');
+INSERT INTO `team` (`id`, `name`, `position`, `linkedin`, `twitter`, `facebook`, `instagram`, `github`, `pics`, `time`) VALUES
+(6, 'Glory Nwa', 'Senior Web Developer <br> & Programmer', 'https://www.linkedin.com/in/glory-nwa-8a2a27103/', '', '', '', 'https://github.com/GloryNwa/', 'gil_1.jpg', '2020-02-22 15:48:16.031402'),
+(10, 'Femi Dasilva', 'Digital Marketing Expert', '', '', 'https://web.facebook.com/femi Dasilva', 'https://instagram.com/femidasilva17', '', 'pstFemi.jpg', '2020-02-08 15:26:53.580622'),
+(11, 'chinwe Okonkwo', 'Senior Web Developer <br> & Programmer', 'https://www.linkedin.com/in/chinwe-okonkwo/o', '', '', '', 'https://github.com/G-chilie/', 'Screenshot_20200119-171958_1_1.jpg', '2020-02-22 17:28:06.709836'),
+(12, 'Kingsley Okonkwo', 'Senior Web Developer <br>& Programmer', 'https://linkedin.com/kingsley-okonkwo', '', '', '', 'https://github.com/King-Success', 'Screenshot_20200102-114503.png', '2020-02-08 23:24:34.444184'),
+(13, 'Uzo Abiaka', 'Digital Marketing Expert, Social Media manager & Script Writer.', '', '', 'https://web.facebook.com/kingskidluv', 'https://instagram.com/amazing_uzo', '', 'uzo1.jpg', '2020-02-08 20:43:50.817691'),
+(14, 'Ibukun Agboola', 'Senior Web Developer & Programmer', 'https://www.linkedin.com/ibukunoluwa-agboola-0b3559156/', '', '', '', 'https://github.com/the-real-ibukun	', 'IBK2.jpg', '2020-02-13 22:05:33.064041'),
+(15, 'Angela', 'Digital Marketing Expert, Social Media manager & Script Writer.', '', '', '', 'https://instagram.com/tutugel', '', 'IMG-20200224-WA0004.jpg', '2020-02-28 10:25:41.000000');
 
 -- --------------------------------------------------------
 
@@ -223,7 +231,7 @@ CREATE TABLE `testimony` (
 INSERT INTO `testimony` (`id`, `testimoni`, `name`, `url`, `time`) VALUES
 (2, ' If youâ€™re starting a new business or upgrading an existing site, I strongly recommend using Brilliant Developers. The developers are friendly, knowledgeable, and dedicated to producing a high quality product. They all worked very hard to create my site. They were always available to answer questions, make improvements, and provide guidance. Even after the site was completed, they continued to offer unsolicited assistance. On a scale of 1-10, I give all of them a 10.', 'Kola Agboola Founder, Polizis.', 'www.polizis.com', '2019-09-17 22:55:05.295401'),
 (4, 'Brilliant developers have taken our business to the next level.              Their professional solutions continue to impress us and their knowledge has catapulted our sales.              They have created 4 different websites for our companies; all with excellent results.              I will sure use them for all my upcoming projects and recommend them!!', 'Mr Debo  General Manager, Diakrino Nigeria Ltd.', 'www.diakrino.com', '2019-10-25 00:35:04.107661'),
-(5, 'Thanks for the fantastic job on our site. It was a pleasure working with Brilliant Developers. as they worked closely with us every step of the way, and we valued their creative input that exceeded our expectations.                   We are planning a couple more websites in the near future, and we will be trusting Brilliant Developers to come through for us again and again!!!                   If you are looking to get a website built or redesigned these are the go-to guys.', 'Mr Alexander Ibeh, DEOHub', 'www.deohub.com', '2019-10-24 22:33:50.139236');
+(5, 'Thanks for the fantastic job on our site. It was a pleasure working with Brilliant Developers. as they worked closely with us every step of the way, and we valued their creative input that exceeded our expectations.                   We are planning a couple more websites in the near future, and we will be trusting Brilliant Developers to come through for us again and again!!!                   If you are looking to get a website built or redesigned these are the go-to guys.', 'Mr Alexander Ibeh, DEOHub .co', 'www.deohub.com', '2020-02-07 17:52:27.630914');
 
 -- --------------------------------------------------------
 
@@ -238,6 +246,7 @@ CREATE TABLE `training` (
   `email` text NOT NULL,
   `phone` text NOT NULL,
   `location` text NOT NULL,
+  `amount` text NOT NULL,
   `message` text NOT NULL,
   `time` timestamp(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -246,12 +255,10 @@ CREATE TABLE `training` (
 -- Dumping data for table `training`
 --
 
-INSERT INTO `training` (`id`, `firstname`, `lastname`, `email`, `phone`, `location`, `message`, `time`) VALUES
-(1, 'Glory', 'Nwa', 'glorynwa@gmail.com', '+2347068057873', 'Ajao estate', 'weekends', '2019-10-11 13:01:36.000000'),
-(2, 'Glory', 'Nwa', 'glorynwa@gmail.com', '+2347068057873', 'Ajao estate', 'weekends', '2019-10-11 13:02:27.000000'),
-(3, 'Glory', 'Nwa', 'glorynwa@gmail.com', '+2347068057873', 'Ajao estate', 'weekend', '2019-10-11 13:06:27.000000'),
-(4, 'Glory', 'Nwa', 'glorynwa@gmail.com', '+2347068057873', 'Ajao estate', 'weekends', '2019-10-11 13:08:48.000000'),
-(5, 'Glory', 'Nwa', 'glorynwa@gmail.com', '+2347068057873', 'Ajao estate', 'weekend', '2019-10-11 13:15:21.000000');
+INSERT INTO `training` (`id`, `firstname`, `lastname`, `email`, `phone`, `location`, `amount`, `message`, `time`) VALUES
+(101, '', '', '', '', '', '', '', '2020-02-07 16:52:14.000000'),
+(102, 'GloryRich', 'Nwa', 'gloryrich@gmail.com', '07068057822', 'LCA Arena , Oregun, Ikeja, Lagos, Nigeria.', 'Iam Rich', '55000', '2020-02-07 16:55:01.000000'),
+(103, 'Edwin', 'Udo', 'edy@gmail.com', '07068057873', 'Ikeja', 'iam Edwin', '30000', '2020-02-07 16:59:57.000000');
 
 -- --------------------------------------------------------
 
@@ -271,11 +278,12 @@ CREATE TABLE `webtraining` (
 --
 
 INSERT INTO `webtraining` (`id`, `description`, `pics`, `time`) VALUES
-(1, 'School or private coding classes, we have got you covered, reach us today Lorem ipsum dolor sit amet, oporteat reformidans mei ut, sea simul intellegat ad. Accusata forensibus sed ne. Eu quas nemore aliquid eam. Lorem munere graeco ad eum.  Est ne prima voluptatum, ea nam scripta invidunt petentium. Has ad summo aeterno maiorum. Partiendo scriptorem pri ad, pro choro sadipscing ne, ad usu tempor deleniti. Esse animal qualisque qui id. Sea habemus quaestio delicata an', 'train.png', '2019-10-06 22:38:54.041582'),
+(1, 'School or private coding classes, we have got you covered, reach us today Lorem ipsum dolor sit amet, oporteat reformidans mei ut, sea simul intellegat ad. Accusata forensibus sed ne. Eu quas nemore aliquid eam. Lorem munere graeco ad eum.  Est ne prima voluptatum, ea nam scripta invidunt petentium. Has ad summo aeterno maiorum. Partiendo scriptorem pri ad, pro choro sadipscing ne, ad usu tempor deleniti. Esse animal qualisque qui id. Sea habemus quaestio delicata an', 'train.PNG', '2020-01-29 17:39:46.385492'),
 (2, 'School or private coding classes, we have got you covered, reach us today Lorem ipsum dolor sit amet, oporteat reformidans mei ut, sea simul intellegat ad. Accusata forensibus sed ne. Eu quas nemore aliquid eam. Lorem munere graeco ad eum.  Est ne prima voluptatum, ea nam scripta invidunt petentium. Has ad summo aeterno maiorum. Partiendo scriptorem pri ad, pro choro sadipscing ne, ad usu tempor deleniti. Esse animal qualisque qui id. Sea habemus quaestio delicata an', 'train.png', '2019-10-06 22:39:00.646960'),
 (3, ' The WEB DEVELOPMENT TRAINING is organise by the web programming team at Brilliant Developers Limited, it is a practical oriented training class. There will be a tutor lead section, class programming session and a project development section. Every student will be expected to complete a web project (a Computer Based Test or a Responsive Personal Resume Website or both) using the technology learnt during the training.     Student will also be thought the advance programming language in web development using database technologies and server- side scripting to bring out a dynamic web site.  At the completion of the programme, students will be familiar with higher technologies used in creating a dynamic website', 'train.png', '2019-10-30 23:49:21.509719'),
 (4, ' The WEB DEVELOPMENT TRAINING is organise by the web programming team at Brilliant Developers Limited, it is a practical oriented training class. There will be a tutor lead section, class programming session and a project development section. Every student will be expected to complete a web project (a Computer Based Test or a Responsive Personal Resume Website or both) using the technology learnt during the training.     Studen will also be thought the advance programming language in web development using database technologies and server- side scripting to bring out a dynamic web site.  At the completion of the programme, students will be familiar with higher technologies used in creating a dynamic website', 'train.png', '2019-10-06 22:39:16.345858'),
-(5, ' The WEB DEVELOPMENT TRAINING is organise by the web programming team at Brilliant Developers Limited, it is a practical oriented training class. There will be a tutor lead section, class programming session and a project development section. Every student will be expected to complete a web project (a Computer Based Test or a Responsive Personal Resume Website or both) using the technology learnt during the training.     Studen will also be thought the advance programming language in web development using database technologies and server- side scripting to bring out a dynamic web site.  At the completion of the programme, students will be familiar with higher technologies used in creating a dynamic website', 'train.png', '2019-10-06 22:39:22.149190');
+(5, ' The WEB DEVELOPMENT TRAINING is organise by the web programming team at Brilliant Developers Limited, it is a practical oriented training class. There will be a tutor lead section, class programming session and a project development section. Every student will be expected to complete a web project (a Computer Based Test or a Responsive Personal Resume Website or both) using the technology learnt during the training.     Studen will also be thought the advance programming language in web development using database technologies and server- side scripting to bring out a dynamic web site.  At the completion of the programme, students will be familiar with higher technologies used in creating a dynamic website', 'train.png', '2019-10-06 22:39:22.149190'),
+(6, '', 'train.png', '2020-01-29 17:42:27.000000');
 
 --
 -- Indexes for dumped tables
@@ -350,61 +358,51 @@ ALTER TABLE `webtraining`
 --
 ALTER TABLE `admin`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
 --
 -- AUTO_INCREMENT for table `contacts`
 --
 ALTER TABLE `contacts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
-
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 --
 -- AUTO_INCREMENT for table `qualitydesign`
 --
 ALTER TABLE `qualitydesign`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
-
 --
 -- AUTO_INCREMENT for table `recentjobs`
 --
 ALTER TABLE `recentjobs`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
-
 --
 -- AUTO_INCREMENT for table `services`
 --
 ALTER TABLE `services`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
-
 --
 -- AUTO_INCREMENT for table `slider`
 --
 ALTER TABLE `slider`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
-
 --
 -- AUTO_INCREMENT for table `team`
 --
 ALTER TABLE `team`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
-
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 --
 -- AUTO_INCREMENT for table `testimony`
 --
 ALTER TABLE `testimony`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
-
 --
 -- AUTO_INCREMENT for table `training`
 --
 ALTER TABLE `training`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
-
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=104;
 --
 -- AUTO_INCREMENT for table `webtraining`
 --
 ALTER TABLE `webtraining`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
-COMMIT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

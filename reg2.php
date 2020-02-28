@@ -1,11 +1,24 @@
 <?php include("header.php");
- $glory = [
-  'fname' => $_SESSION['fname'],
-  'lname' => $_SESSION['lname'],
-  'email' => $_SESSION['email'],
-  'phone' => $_SESSION['phone'],
-  'amount' => str_replace(",", "", $_SESSION['option'])
- ];
+//  $glory = [
+//   'fname' => $_SESSION['fname'],
+//   'lname' => $_SESSION['lname'],
+//   'email' => $_SESSION['email'],
+//   'phone' => $_SESSION['phone'],
+//   'phone' => $_SESSION['phone'],
+
+//   'amount' => str_replace(",", "", $_SESSION['option'])
+//  ];
+
+// $glory = [
+  // $fname = $_SESSION['fname'];
+  // $lname = $_SESSION['lname'];
+  // $email = $_SESSION['email'];
+  // $location = $_SESSION['location'];
+  // $phone = $_SESSION['phone'];
+  // $option = $_SESSION['option'];
+
+  // 'amount' => str_replace(",", "", $_SESSION['option'])
+//  ];
 ?>
     <!-- end header -->
       <section id="inner-headline" style="background-image: url(img/buildings.png);">
@@ -91,16 +104,20 @@
                       <td>
                     <?php echo $_SESSION['message'];?>
                       </td>
-                      <td>₦:  
-                    <?php echo str_replace(",", "", $_SESSION['option']);
-                    
-                        ?>
-                      </td>
+                      <td>
+                      <?php echo $_SESSION['option'];?> 
+                   
+                      </td><?php
+//                       unset($_SESSION['fname']);
+// unset($_SESSION['lname']);
+// unset($_SESSION['email']); unset($_SESSION['phone']);
+// unset($_SESSION['location']); unset($_SESSION['option']);?>
+
                     </tr>                    
                   </tbody>
                 </table>
                  <div class="btn btn-theme btn-block" style="border:none">
-                  <button class="btn btn-cart btn-warning" onclick='payWithPaystack(<?php echo json_encode($glory);?>)'>PROCEED TO CHECKOUT</button>
+                  <a href="paystack.php"><button class="btn btn-cart btn-warning">PROCEED TO CHECKOUT</button></a>
                   </div>
               </div>                                         
           </div>

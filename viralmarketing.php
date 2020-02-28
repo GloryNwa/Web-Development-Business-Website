@@ -26,7 +26,7 @@
         <div class="row">
           <div class="span6">
             <div class="flyLeft">
-            <h5>Digital Marketing <span class="colored"></span></h5>
+            <h5><b>Digital & Social Media Marketing</b> <span class="colored"></span></h5>
               <p>
               We are Digital and social media marketing expert. We can promote you product and provide daily google analytist report. 
               <p>We are Digital Marketing Agency that work with multinationals, SMEs, and start-ups. We are dedicated to producing the highest quality results on a modest budget.</p><!--  If you are looking for digital marketing agencies to consult in Nigeria look no further than Brilliant Developers. -->
@@ -46,14 +46,14 @@
                   <li>Increase brand awareness</li>
                   <li>Drive sales</li>
                   <li>Increase social media followers/engagement</li>
-                  <li>Increase online visibility</li>
-                  <li>Establish your company in local search</li> 
-                   <li>Establish your brand/business on social media</li>
                   <li>Online reputation management</li>
                   <li>Increase online visibility</li>
                   <li>Tailored Action Plan</li> 
                    <li>Marketing Strategy Report</li>
                   <li>Promotional Campaign</li>
+                  <li>Establish your company in local search</li> 
+                   <li>Establish your brand/business on social media</li>
+                  
                </ul>
 
               </p>
@@ -68,7 +68,7 @@
         </div>
         <div class="row">
           <div class="span12">
-            <div class="solidline"></div>
+            <!-- <div class="solidline"></div> -->
           </div>
         </div>
         <?php include ("training.php");?>

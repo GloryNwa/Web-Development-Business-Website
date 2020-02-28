@@ -18,6 +18,7 @@
 
   <!-- css -->
   <link href="https://fonts.googleapis.com/css?family=Handlee|Open+Sans:300,400,600,700,800" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="css/bootstrap.css" rel="stylesheet" />
   <link href="css/bootstrap-responsive.css" rel="stylesheet" />
   <link href="css/flexslider.css" rel="stylesheet" />
@@ -74,24 +75,29 @@
             <div class="span6">
               <p class="topcontact" style="color:#fff; font-size:17px"><i class="icon-phone"></i>&nbsp;+2347068057873 / +2348137434299</p>
             </div>
-           <!--  <div class="span6">
+           <div class="span6">
 
-              <ul class="social-network">
-                <li><a href="#" data-placement="bottom" title="Facebook"><i class="icon-facebook icon-white"></i></a></li>
-                <li><a href="#" data-placement="bottom" title="Twitter"><i class="icon-twitter icon-white"></i></a></li>
-                <li><a href="#" data-placement="bottom" title="Linkedin"><i class="icon-linkedin icon-white"></i></a></li>
-                <li><a href="#" data-placement="bottom" title="Pinterest"><i class="icon-pinterest  icon-white"></i></a></li>
-                <li><a href="#" data-placement="bottom" title="Google +"><i class="icon-google-plus icon-white"></i></a></li>
-                <li><a href="#" data-placement="bottom" title="Dribbble"><i class="icon-dribbble icon-white"></i></a></li>
+              <ul class="social-network"> 
+              <li><a href="https://linkedin.com/GloryNwa/" data-placement="bottom" title="Linkedin"><i class="icon-linkedin icon-white"></i></a></li>
+                <!-- <li><a href="#" data-placement="bottom" title="Facebook"><i class="icon-facebook icon-white"></i></a></li> -->
+                <li><a href="https://github.com/GloryNwa/" data-placement="bottom" title="GitHub"><i class="icon-github icon-white"></i></a></li>
+                
+                <li><a href="#" data-placement="bottom" title="twitter"><i class="icon-twitter  icon-white"></i></a></li>
+                <!-- <li><a href="#" data-placement="bottom" title="Google +"><i class="icon-google-plus icon-white"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Dribbble"><i class="icon-dribbble icon-white"></i></a></li> -->
               </ul>
 
-            </div> -->
+            </div> 
           </div>
         </div>
       </div>
       <div class="container">
 
-        <marquee style="color:#ff5821">Thank you for visiting our website, how can we help you? We are Brilliant Developers driven by group of Strategic Thinkers, Creative Designers, Programmers, IT Consultants and software managers. We can be your Digital Problems Solution Partner  -- Contact Us Today!</marquee>
+        <marquee style="color:#ff5821">Welcome to Brilliant Developers! Thank you for visiting our site.
+         We are Brilliant Developers driven by group of Brilliant Web Experts, Strategic Thinkers, Creative Designers,
+          Programmers, IT Consultants and Software Managers. Developing and managing several web projects
+           in Nigeria and Abroad. We can be your 
+        Digital Problems Solution Partner  -- Lets Take Your Business to the Next Level ->>></marquee>
         <div class="row nomargin">
           <div class="span4">
             <div class="logo">

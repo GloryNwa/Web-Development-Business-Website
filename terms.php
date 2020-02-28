@@ -114,7 +114,7 @@ Maintenance packages are billed annually, however are paid monthly via any mode 
 <h5 style="color:#ff5821">GENERAL APPROACH</h5>
 <p>For general website design &amp; development projects we employ the following steps:</p>
 <ul>
-    <li>Upon quote acceptance/signoff, advance payment is processed to start the project. As required by the project, we may hold a physical meeting to discuss the requirements in detail.</li>
+    <li>Upon quote acceptance/signoff, advance payment of at least 80% of the agreed price is processed to start the project. As required by the project, we may hold a physical meeting to discuss the requirements in detail.</li>
     <li>Once we have the brand details such as logo, images, branding materials etc, we will have a mock-up for your review within 5 to 10 working days. You can review the design and suggest improvements accordingly. <!-- Depending upon your project, generally up to 3 to 5 design modifications that can be done within the given estimates. Please refer to your allocated design and development hours for details. --></li>
     <li>Once design is finalised &amp; approved, we&rsquo;ll proceed with the HTML development. At this stage we generally need around 3 to 5 banner text and/or images for rotation.</li>
     <li>Once, HTML is done, if CMS is included in your project, we will proceed to setup your website on your selected Content Management System (CMS). Please provide all content and copy prior to the development phase.</li>
@@ -146,8 +146,7 @@ Maintenance packages are billed annually, however are paid monthly via any mode 
 </ul>
 <p><strong>Due date:</strong> Is the date on which the payment is due as per the terms on the invoice/proposal</p>
 <p><strong>Outstanding Invoice:</strong> An invoice is deemed to be outstanding if the payment is still due after 14 days of the expiry of the due date.</p>
-<p><strong>Debt Collection:</strong> Client is provided a further 7 days after late payment fee is applied to pay the invoice. Failure to pay will result in the outstanding amount referred to a debt collector. Brilliant Developers will not be liable for any costs
-    or charges associated with the recovery of the outstanding amount. Any charges associated with the recovery of the outstanding amount (debt collectors, administration charges, legal fees) will be referred to the client for processing.</p>
+
 <ul>
     <li>If you are late with a payment or have any queries regarding the invoice, please contact us immediately on receiving the invoice or reminder emails.</li>
     <li>All communications/correspondences are generally done via emails. It is client&rsquo;s responsibility to keep us updated with their relevant email addresses.</li>
@@ -159,12 +158,12 @@ Maintenance packages are billed annually, however are paid monthly via any mode 
 
 
 
-<h5>DISPUTES, LIABILITY &amp; INDEMNITY</h5>
+<!-- <h5>DISPUTES, LIABILITY &amp; INDEMNITY</h5>
 <p>In an event of a dispute, Brilliant Developers reserves the right to charge the client in full for the work done as well as for the resources spent in managing the dispute. In such an event, Brilliant Developers reserves the right to charge the client without honoring
     any discounts that were previously honored in good faith. Under no circumstances will Brilliant Developers be liable for any damages arising from misrepresentation or misinformation.</p>
 <p>Brilliant Developers reserves the right to refuse service to any client, if these are not aligned with our business operating principles and policies.</p>
 <p>Brilliant Developers provides its services as is, without any guarantees on security or other issues leading to loss of data, sale or reputation. We ensure to the best of our ability that our development are protected from hackers, intruders
-    and other online problems, however we will not be held liable for any disruption of services if such situation arises.</p>
+    and other online problems, however we will not be held liable for any disruption of services if such situation arises.</p> -->
 <!-- <p>Relationship of Brilliant Developers Ltd. with its suppliers, partners and sub-contractors is of an independent nature. None of the parties have any power, right or authority to interfere or bind the other or assume or create any obligation or responsibility, whether
     expressed or implied, on behalf of the other or in the other&rsquo;s name.</p>
 <p>Client will indemnify and hold Brilliant Developers Ltd., its licensors, content providers, service providers, employees, agents, officers, directors, contractors and sub-contractors (the &ldquo;Indemnified Parties&rdquo;) harmless from your breach of any of these
@@ -173,7 +172,7 @@ Maintenance packages are billed annually, however are paid monthly via any mode 
     in connection therewith. You will also indemnify and hold the Indemnified Parties harmless from and against any claims brought by third parties arising out of your use of the information obtained from Brilliant Developers Ltd..</p> -->
 <!-- <p>Brilliant Developers Ltd. will not be liable for any breach of the agreement which is caused by a matter beyond its reasonable control including but not limited to Act of God, fire, lightning, explosion, war, disorder, flood, earth quake, industrial disputes (whether
     or not involving their employees), extremely severe weather, or acts of local or central government or other competent authorities.</p> -->
-<p>&nbsp;</p>
+<!-- <p>&nbsp;</p> -->
 <!-- <p>All Brilliant Developers Ltd. services and products may be used for lawful purposes only. You agree to indemnify and hold Brilliant Developers Ltd. harmless from any claims resulting from your use of our service that damages you or any other party.</p>
 <p>&nbsp;</p>
 <p><br></p> -->
@@ -181,7 +180,7 @@ Maintenance packages are billed annually, however are paid monthly via any mode 
 <h5>HOSTING</h5>
 <p>Hosting is an annual charge which must be paid in advance for the whole year.</p>
 <p>It is the client&rsquo;s responsibility to renew the hosting in time ie. before the expiry date. Failure to renew in time can lead to loss of files, data, emails, backups etc. All unpaid hostings are disabled or deleted from the server.</p>
-<p>All renewals must be paid by twenty one (21) working days prior to the expiry date. Brilliant Developers will not be responsible for issues relating to delayed payment.</p>
+<p>All renewals must be paid two (2) months ahead  prior to the expiry date. Brilliant Developers will not be responsible for issues relating to delayed payment.</p>
 <p>Hosting are on shared and non-shared servers hosted via third party providers. <!-- Brilliant Developers Ltd. ensures best to our ability that our systems and servers are protected from hackers, viruses, intruders and other online and offline problems, however we will
     not be held liable for any disruption of services if such situation arises -->
 Client is solely responsible for the content stored on and served by the hosting service purchased and the activity of any scripts or email services created under the hosting service. The Customer must maintain the security of all account passwords and
@@ -203,7 +202,7 @@ Client is solely responsible for the content stored on and served by the hosting
 <p><br></p>
 <h5>DOMAINS</h5>
 <p>All domain registrations and renewals are to be paid in advance. Expiration of a domain can result in service disruption and loss of domain.</p>
-<p>Brilliant Developers will not be responsible if a domain expires due to non-payment / late payment of the charges. All payments must be made by twenty one (21) working days before the expiry date. It is client&rsquo;s responsibility to renew their domain names.</p>
+<p>Brilliant Developers will not be responsible if a domain expires due to non-payment / late payment of the charges. All payments must be made two months(2) ahead before the expiry date. It is client&rsquo;s responsibility to renew their domain names.</p>
 <!-- <p>All invoices and dues must be paid in full before we release the requested domain name.</p>
 <p>Lentarex Ltd. has the domains in a common pool account and therefore cannot give access to its domain control panel.</p>
 <p>Lentarex Ltd. offer packages in co-ordination with third party providers. Changes to the third party provider&rsquo;s rules and policies may ultimately affect the services we provide or the terms and conditions herein.</p>
@@ -211,13 +210,13 @@ Client is solely responsible for the content stored on and served by the hosting
 <p><br></p>
 <h5>INTELLECTUAL PROPERTY</h5>
 <p>All content of this website is a property of Brilliant Developers unless otherwise specified. Brilliant Developers reserves the right to change the content or policies without any prior notice.</p>
-<p>The project related copyrights can be transferred to the client at an additional cost, after the full payment of the project and upon signing the Certificate of Acceptance. Brilliant Developers reserves the rights to refuse the transfer of ownership
+<p>The project related copyrights can be transferred to the client at an additional cost, after the full payment of the project and upon signing the <b>Certificate of Acceptance</b>. Brilliant Developers reserves the rights to refuse the transfer of ownership
     if irregular circumstances arise.</p>
 <p>Copyrights handed over to the client do not include rights to re-use the code for another website or re-sell the programming codes for any commercial or non-commercial purposes. In the case of business restructuring or ownership change, ownership of the
     website may be transferred from one owner to another. New owners are not allowed to re-sell or re-use for any commercial or non-commercial purpose.</p>
 <p>In an event of a webmaster change, site owners are not allowed to display the credits to the new website, unless such time that the website functionality and appearance is changed by over 50% of our original work.</p>
-<p>&ldquo;Brilliant Developers&rdquo; is a trade mark of Brilliant Developers of Nigeria, along with the logo &ldquo;Brilliant Developers&rdquo;.</p>
-<p>Clients, Partners, Suppliers, Sub-contractors and any other 3rd party organisation or individual are not allowed to use Brilliant Developers trademarks including the name, logo and symbol in any way shape or form without a written permission from us.</p>
+<p>&ldquo;<b>Brilliant Developers</b>&rdquo; is a trade mark of <b>Brilliant Developers of Nigeria</b>, along with the logo &ldquo;<b>Brilliant Developers</b>&rdquo;.</p>
+<p>Clients, Partners, Suppliers, Sub-contractors and any other 3rd party organisation or individual are not allowed to use <b>Brilliant Developers trademarks</b> including the name, logo and symbol in any way, shape, or form without a written permission from us.</p>
 <p><br></p>
 <!-- <h5>PRIVACY POLICY</h5>
 <p>This policy covers how we use your personal information. We take your privacy seriously and will take all measures to protect your personal information. Any personal information received will only be used to fulfill your order, and may be used for internal

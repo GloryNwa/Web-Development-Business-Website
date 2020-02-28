@@ -34,7 +34,7 @@
                             <li><i class="fa fa-briefcase"></i><a href="managePortfolio.php">Manage Porfolio</a></li>
                             <li><i class="fa fa-users"></i><a href="team_form.php">Team Members</a></li>
                             <li><i class="fa fa-users"></i><a href="manageTeam.php">Manage Team Members</a></li>
-                            <li><i class="fa fa-users"></i><a href="webTraining.php">Web Training </a></li>
+                            <li><i class="fa fa-users"></i><a href="webTraining.php">Web Training Form </a></li>
                             <li><i class="fa fa-users"></i><a href="trainingReg.php">Training Registration </a></li>
                             <li><i class="fa fa-envelope"></i><a href="contactMessage.php">Contact Messages</a></li>   
                             <li style="background-color:red"><i class="fa fa-key"></i><a href="logout.php">Logout</a></li>                  

@@ -42,7 +42,7 @@
              ?>
           <div class="span6">
             <div class="flyLeft">
-              <h4><?php echo $title2;?><span class="colored"></span></h4>
+              <h4><b><?php echo $title2;?></b><span class="colored"></span></h4>
               <p>
                  <?php echo $desc;?>
               </p>
@@ -62,7 +62,7 @@
             ?>
 
         </div>       
-        <hr>
+        <br>
        <?php include ("training.php");?>
         <hr>
         <div class="row">

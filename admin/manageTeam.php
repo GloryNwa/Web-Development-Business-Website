@@ -84,6 +84,7 @@ if(!isset($_SESSION['password']) || $_SESSION['password'] != 'richgirlforever') 
                                            <th>#</th>
                                             <th>Name</th>
                                              <th>Position</th>
+                                             <th>LinkedIn</th>
                                             <th>Twitter</th>
                                             <th>Facebook</th>
                                             <th>Instagram</th>
@@ -100,6 +101,7 @@ if(!isset($_SESSION['password']) || $_SESSION['password'] != 'richgirlforever') 
                                      
                                       $name = $query_row['name'];
                                       $post = $query_row['position'];
+                                      $linkedin = $query_row['linkedin'];
                                       $twitter = $query_row['twitter'];
                                       $facebook = $query_row['facebook'];
                                       $instagram = $query_row['instagram'];
@@ -115,12 +117,12 @@ if(!isset($_SESSION['password']) || $_SESSION['password'] != 'richgirlforever') 
                                               <h4 class="date"><?php echo $name?></h4>
                                                    <ul class="nav nav-pills">
                                                   <li role="presentation">
-                                                     <a href="editTeam.php?id=<?php echo $query_row['id']; ?>"
+                                                     <a href="editTeam.php?id=<?php echo $query_row['id']; ?>">
                                                       <span class="fa fa-pencil" style="color:#009efb;"> Edit</span>  
                                                      </a><br><br><br>
                                                   </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                    <li role="presentation">
-                                                      <a onclick="return confirm('Are you really sure?')" href="deleteTeam.php?id=<?php echo $query_row['id']; ?>"
+                                                      <a onclick="return confirm('Are you really sure?')" href="deleteTeam.php?id=<?php echo $query_row['id']; ?>">
                                                        <span class="fa fa-trash" style="color:red;"> Delete</span> 
                                                       </a>
                                                   </li>
@@ -128,6 +130,7 @@ if(!isset($_SESSION['password']) || $_SESSION['password'] != 'richgirlforever') 
                 
                                             </td>
                                             <td><?php echo $post;?></td>
+                                            <td><?php echo $linkedin;?></td>
                                             <td><?php echo $twitter;?></td>
                                             <td><?php echo $facebook;?></td>
                                             <td><?php echo $instagram;?></td>

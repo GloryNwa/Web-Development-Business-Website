@@ -1,6 +1,6 @@
 
     <!-- end header -->
-<style>
+    <style>
   h4:hover{
     color: #ff5821 !important;
     
@@ -32,91 +32,8 @@
 </style>
 
 <div class="row">
-          <div class="span12 aligncenter">
-            <h4 class="title">What people are <strong>saying</strong> about us</h4>
-            <div class="blankline30"></div>
-
-            <ul class="bxslider">
-            <?php  $query = "SELECT * FROM testimony LIMIT 7";
-             if ($query_run = mysqli_query($connection,$query)) {
-
-
-         while($query_row = mysqli_fetch_assoc($query_run)){
-              $testimoni = $query_row['testimoni'];
-              $name = $query_row['name'];
-              $url = $query_row['url'];     
-            
-          ?>
-              <li>
-                <blockquote>
-                <?php echo $testimoni;?>
-                </blockquote>
-                <div class="testimonial-autor">
-                  <!-- <img src="img/dummies/testimonial/1.png" alt="" /> -->
-                  <h4><?php echo $name; ?></h4>
-                  <a href="#">
-                  <div class="url"><?php echo $url;?></div></a>
-                </div>
-              </li>
-              <?php
-               }
-              }
-            ?>
-            
-            </ul>
-
-          </div>
-        </div>
-
-      </div>
-    </section>
-  </div>
-
- <section id="works">
-      <div class="container">
-        <div class="row">
-          <div class="span12">
-            <h4 class="title">Recent <strong>Works</strong></h4>
-            <div class="row">
-              <div class="grid cs-style-4">
-
-             <?php  $query = "SELECT * FROM recentjobs ORDER BY id DESC LIMIT 4";
-               if ($query_run = mysqli_query($connection,$query)) {
-                
-                while($query_row = mysqli_fetch_assoc($query_run)){
-                    $file    = $query_row['picture'];
-                    $site    = $query_row['site'];
-                    $desc    = $query_row['description'];
-                  ?>
-                <div class="span3">
-                  <div class="item">
-                    <figure>
-                      <div> <img src='<?php echo "admin/uploads/" .$file;?>'width="300px" alt="" style="height:200px"/></div>
-                      <figcaption>
-                        <div>
-                       <span>
-                            <a href="<?php echo $site;?>"><i class="far fa-eye" style="color:#fff;"></i></a>
-                       </span>
-                        </div>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </div>
-                </a>
-              <?php
-                 }
-
-              }
-
-           ?>
-           </div>
-           </div>
-          </div>
-        </div>
-      </div>
-
-    </section>
-    <div style="border: 1px solid #ff5821"></div>
+         
+<div style="border: 1px solid #ff5821"></div>
    <footer style="background-image: url(img/map.png);">
       <div class="container">
 

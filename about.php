@@ -25,7 +25,7 @@
        <div class="card-content">
         <div class="row">
           <div class="span12">
-            <h4> WHO WE ARE</h4>
+            <h4><b> WHO WE ARE</b></h4>
             <p>
           
 We are driven by group of Young Brilliant Web Developers, Strategic Thinkers, Creative Designers, Programmers, IT Consultants and Software Managers. Developing and managing several web projects in Nigeria and abroad.
@@ -33,7 +33,7 @@ We are driven by group of Young Brilliant Web Developers, Strategic Thinkers, Cr
             <p>
               <p>Brilliant Developers was established by a team of professionals who are developers, programmers, IT consultants and software managers in 2018.<br> The organization from inception has been driven by group of IT experts and has developed and manage several web projects to her credits.</p>
 <p>We specialize in world class Web Design, Development, Programming, Sophisticated Web-Base Applications, E-commerce System, Web portal, Content Management System, Content Development, Database Design and Development etc. Brilliant Developers features an integrated team of web experts who knows how to get the <b>Real World Results.</b></p>
-<p>Our business-driven approach differentiates us from typical web development companies. For the past few years we have built up a reputation for creating a positive return on investment (ROI) for our clients. If you are serious about your business online solution, we can get you there. - Discover the Developers Difference.</p>
+<p>Our business-driven approach differentiates us from typical web development companies. For the past few years we have built up a reputation for creating a positive return on investment <b>(ROI)</b> for our clients. If you are serious about your business online solution, we can get you there. - Discover the Developers Difference.</p>
 </div>
             </p>
             </div>
@@ -56,7 +56,7 @@ We are driven by group of Young Brilliant Web Developers, Strategic Thinkers, Cr
                 <ul id="thumbs" class="team">
 
                   <!-- Item Project and Filter Name -->
-                    <?php  $query = "SELECT * FROM team ORDER BY id ASC LIMIT 8";
+                  <?php  $query = "SELECT * FROM team ORDER BY id ASC LIMIT 8";
                        if ($query_run = mysqli_query($connection,$query)) {
 
                         while($query_row = mysqli_fetch_assoc($query_run)){
@@ -67,6 +67,7 @@ We are driven by group of Young Brilliant Web Developers, Strategic Thinkers, Cr
                             $facebook = $query_row['facebook'];
                             $position = $query_row['position'];
                             $git      = $query_row['github'];
+                            $linkedin      = $query_row['linkedin'];
                             
                           
                       ?>
@@ -81,10 +82,41 @@ We are driven by group of Young Brilliant Web Developers, Strategic Thinkers, Cr
                         </p>
                        
                         <ul class="social-network">
-                          <li><a href="<?php echo $twitter;?>" title="Twitter"><i class="icon-circled icon-bgdark icon-twitter"></i></a></li>
-                          <li><a href="<?php echo $facebook;?>" title="facebook"><i class="icon-circled icon-bgdark icon-facebook"></i></a></li>
-                          <li><a href="<?php echo $git;?>" title="github"><i class="icon-circled icon-bgdark icon-github"></i></a></li>
-                          <li><a href="<?php echo $insta;?>" title="instagram"><i class="icon-circled icon-bgdark icon-instagram"></i></a></li>
+                        <?php if($linkedin == ''){
+                            echo '';
+                          }else{?>
+                            <li><a href="<?php echo $linkedin;?>" title="Linkedin"><i class="icon-circled icon-bgdark icon-linkedin"></i></a></li> 
+                            <?php
+                          }?>
+                          <?php if($twitter == ''){
+                            echo '';
+                          }else{?>
+                            <li><a href="<?php echo $twitter;?>" title="Twitter"><i class="icon-circled icon-bgdark icon-twitter"></i></a></li> 
+                            <?php
+                          }?>
+                           <?php if( $facebook  == ''){
+                            echo '';
+                          }else{?>
+
+                            <li><a href="<?php echo $facebook;?>" title="facebook"><i class="icon-circled icon-bgdark icon-facebook"></i></a></li>
+                            <?php 
+                          }?>
+                           <?php if($git == ''){
+                            echo '';
+                          }else{?>
+                            <li><a href="<?php echo $git;?>" title="github"><i class="icon-circled icon-bgdark icon-github"></i></a></li>
+                            <?php 
+                          }?>
+                           <?php if($insta == ''){
+                            echo '';
+                          }else{?>
+                            <li><a  href="<?php echo $insta;?>" title="instagram"><i class="icon-circled icon-bgdark icon-instagram"></i></a></li> 
+                            <?php
+                          // }else{
+                          //   echo '';
+                          }
+                          ?>
+                         
                         </ul>
                       </div>
                     </div>

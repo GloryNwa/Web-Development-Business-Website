@@ -3,7 +3,7 @@
 session_start();
 
 if(!isset($_SESSION['password']) || $_SESSION['password'] != 'richgirlforever') {
-     // echo '<h1 style="text-align:center; color: red; padding-top:80px">!!!! <br><br>Hacker go away, you are not authorised to view this page!!</h1>';
+     echo '<h1 style="text-align:center; color: red; padding-top:80px">!!!! <br><br>Hacker go away, you are not authorised to view this page!!</h1>';
      //maybe redirect to login page
     header('Location: login.php');
 
@@ -142,12 +142,13 @@ if(!isset($_SESSION['password']) || $_SESSION['password'] != 'richgirlforever') 
                                     <thead>
                                         <tr>
                                             <th>S/N</th>
+                                            <th>Plan</th>
                                             <th>Name</th>
                                             <th>Email</th>
                                             <th>Phone</th>
                                             <th>Company</th>
                                             <th>Budget</th>
-                                            <th>Message</th>
+                                            <th style="width:10px">Message</th>
                                             <th>Time</th>
                                         </tr>
                                     </thead>
@@ -157,7 +158,7 @@ if(!isset($_SESSION['password']) || $_SESSION['password'] != 'richgirlforever') 
                                      if ($query_run = mysqli_query($connection,$sql)) {
                                      
                                      while($query_row = mysqli_fetch_assoc($query_run)){
-                                     
+                                      $plan = $query_row['plan'];
                                       $name = $query_row['name'];
                                       $email = $query_row['email'];
                                       $phone = $query_row['phone'];
@@ -170,12 +171,13 @@ if(!isset($_SESSION['password']) || $_SESSION['password'] != 'richgirlforever') 
                                     <tbody>
                                         <tr>
                                             <td><?php echo $x++;?></td>
+                                            <td><?php echo $plan;?></td>
                                             <td><?php echo $name;?></td>
                                             <td><?php echo $email;?></td>
                                             <td><?php echo $phone;?></td>
                                             <td><?php echo $company;?></td>
                                             <td><?php echo $budget;?></td>
-                                            <td><?php echo $msg;?></td>
+                                            <td style="width:10px !important"><?php echo $msg;?></td>
                                             <td><?php echo $time;?></td>
                                         </tr>
                                         <?php

@@ -14,16 +14,20 @@ if(isset($_POST["submit"])){
 
   if(!empty($_SESSION['fname'])&&!empty($_SESSION['lname'])
    &&!empty($_SESSION['email'])&&!empty($_SESSION['phone'])
-   &&!empty( $_SESSION['location'])&&!empty($_SESSION['message'])
+   &&!empty($_SESSION['location'])&&!empty($_SESSION['message'])
    &&!empty( $_SESSION['option'])){
-  
-    header("Location:reg2.php");
+
+    header("Location:reg2.php");exit;
+    // echo "$('#formm').trigger('reset');"; 
+    // echo "$('#text').fadeOut(2000);";
    }
 
 }
+
    
 
 ?>
+
     <!-- end header -->
 
    <section id="inner-headline" style="background-image: url(img/buildings.png);">
@@ -45,12 +49,15 @@ if(isset($_POST["submit"])){
   <!--   <div style="border: 1px solid #ff5821"></div> -->
 
     <section id="content"style="background-image: url(img/buildings.png);">
-      <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+      <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.
+      96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2s
+      New+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0"
+       allowfullscreen></iframe> -->
 
       <div class="container">
         <div class="row">
           <div class="span8">
-          <div class="alert" style="background-color:#000; border:none">
+          <div >
            <?php if(isset($_SESSION['alert'])){ 
                             echo $_SESSION['alert'];
                             unset($_SESSION['alert']);
@@ -62,43 +69,43 @@ if(isset($_POST["submit"])){
 
             <div id="sendmessage"></div>
            <!--  <div id="errormessage"></div> -->
-            <form action="" method="POST" class="contactForm">
+            <form id="form" action="" method="POST" class="contactForm">
 
               <div class="row">
                 <div class="span4 form-group field">
-                  <input type="text" name="fname" placeholder="First Name" required style="border: 1px solid #ff5821" />
+                  <input type="text" name="fname" placeholder="First Name" required style="border: 1px solid #ff5821" required="required" reset() />
                   
                 </div>
 
                 <div class="span4 form-group">
-                  <input type="text" name="lname" id="email" placeholder="Last Name" data-msg="Please enter a valid email" required style="border: 1px solid #ff5821"/>
-                  <div class="validation"></div>
+                  <input type="text" name="lname" id="" placeholder="Last Name" data-msg="Please enter a valid email" style="border: 1px solid #ff5821" required="required" reset() />
+                  
                 </div>
                  <div class="span4 form-group field">
-                  <input type="email" name="email" placeholder="Email" required style="border: 1px solid #ff5821" />
+                  <input type="email" name="email" placeholder="Email" style="border: 1px solid #ff5821"  required="required" reset() />
                   
                 </div>
 
                 <div class="span4 form-group">
-                  <input type="text" name="phone" id="email" placeholder="Phone Number" data-msg="Please enter a valid email" required style="border: 1px solid #ff5821"/>
+                  <input type="text" name="phone" placeholder="Phone Number" data-msg="Please enter a valid email" required style="border: 1px solid #ff5821" required="required" reset() />
                   <div class="validation"></div>
                 </div>
 
 
                 <div class="span4 form-group">
-                  <input type="text" name="location" id="subject" placeholder="Your Location" data-rule="minlen:15" data-msg="Please enter at least 8 chars of subject" required style="border: 1px solid #ff5821" />
+                  <input type="text" name="location" id="subject" placeholder="Your Location" data-rule="minlen:15" data-msg="Please enter at least 8 chars of subject" required style="border: 1px solid #ff5821" required="required"  reset() />
                   <div class="validation"></div>
                 </div>
                 <div class="span4 form-group" >
-                <select style="width: 100%;max-height:80x" name="option" required="">
+                <select style="width: 100%;max-height:80x" name="option" required="" reset()>
                  <option value="">Select Payment Type</option>
-                  <option value="55,000">One Time Payment (#55,000)</option>
-                  <option value="30,000">Two Times Payment (#30,000)</option>
+                  <option value="55000">One Time Payment (#55,000)</option>
+                  <option value="30000">Two Times Payment (#30,000)</option>
                 </select>
                 </div>
                 <div class="span8 form-group">
                   <textarea name="message" rows="5" data-rule="required" data-msg="Please write something for us"
-                    placeholder="How will your like to recieve the lectures?" required style="border: 1px solid #ff5821" maxlength="60"></textarea>
+                    placeholder="How will your like to recieve the lectures?" required style="border: 1px solid #ff5821" maxlength="60" required="required"  reset()></textarea>
                   <div class="validation"></div>
                   <div class="text-center">
                     <button class="btn btn-theme btn-medium margintop10" name="submit" type="submit" style="background-color:#ff5821; width: 100%">Register</button>
@@ -118,7 +125,7 @@ if(isset($_POST["submit"])){
                 <!--   <li><label>Address :</label> Tinggi sekali tower Jl.Kemacetan timur<br /> Jakarta selatan - Indonesia</li> -->
                   <li><label style="color:#ff5821">Phone :</label>+2347068057873 / +2348137434299</li>
            <!--        <li><label>Fax : </label>+62 123 456 10 / +62 123 456 11</li> -->
-                  <li><label style="color:#ff5821">Email : </label>contact@brilliantdevelopers.org</li>
+                  <li><label style="color:#ff5821">Email : </label>contact@brilliantdevelopers.net<br> techiebabes@gmail.com</li>
                 </ul>
 
               </div>
@@ -127,4 +134,7 @@ if(isset($_POST["submit"])){
         </div>
       </div>
     </section>
+    <script>
+  $("#form")[0].reset();
+    </script>
   <?php include("footer2.php");?>
