@@ -48,7 +48,7 @@
                             $facebook = $query_row['facebook'];
                             $position = $query_row['position'];
                             $git      = $query_row['github'];
-                            $linkedin      = $query_row['linkedin'];
+                            $linkedin = $query_row['linkedin'];
                             
                           
                       ?>

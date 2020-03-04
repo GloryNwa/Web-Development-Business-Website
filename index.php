@@ -34,7 +34,7 @@
             <div class="container">
               <div class="row">
                 <div class="span6">
-                  <img src="img/slides/camera/slide1/teach.PNG" alt="" style=" margin-bottom: 40px !important" />
+                  <img src="img/slides/camera/slide1/teach.png" alt="" style=" margin-bottom: 40px !important" />
                 </div>
                 <div class="span6">
                    <h2 class="animated fadeInDown"><strong style="color:#fff">Hello, <span class="colored" style="color:#ff5821">We are Brilliant Developers</span></strong></h2>
@@ -97,7 +97,7 @@
             <div class="container">
               <div class="row">
                 <div class="span6">
-                  <img src="img/slides/camera/slide2/maaa.PNG" alt="" />
+                  <img src="img/slides/camera/slide2/maaa.png" alt="" />
                 </div>
                 <div class="span6">
                    <h2 class="animated fadeInDown"><strong style="color:#fff">Easy <span class="colored" style="color:#ff5821">Management</span></strong></h2>

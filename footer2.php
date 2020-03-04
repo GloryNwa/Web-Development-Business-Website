@@ -85,7 +85,7 @@
                  }
                  ?>
 
-                 <a href="viralMarketing.php"><li class="url">Digital Marketing</li></a>
+                 <a href="viralmarketing.php"><li class="url">Digital Marketing</li></a>
               </ul>
 
             </div>

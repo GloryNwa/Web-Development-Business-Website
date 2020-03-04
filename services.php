@@ -107,7 +107,7 @@
                   <!-- <li>Marketing Strategy Report</li> -->                
                </ul>
 
-               <a href="viralMarketing.php" style="text-decoration:none;">
+               <a href="viralmarketing.php" style="text-decoration:none;">
               <button class="btn btn-default btn-xs">See More</button></a>
               </p>
           </div>

@@ -130,41 +130,9 @@
                      <li>
                       <a href="solutions.php" class="a" style="color:#fff">Our Solutions</a>
                     </li>
-                    <!-- <li class="dropdown">
-                      <a href="#">Our Solutions<i class="icon-angle-down"></i></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Web Design, Development & Programming</a></li>
-                        <li><a href="#">Website Maintainance & Upgrade</a></li>
-                          <li><a href="#">Content Management System</a></li>
-                        <li><a href="#">Web Development Training</a></li>
-                        <li><a href="#">Content Development</a></li>
-                         <li><a href="#">Web Application</a></li>
-                        <li><a href="#">Digital Marketing</a></li>
-                        <li><a href="#">Website Hosting</a></li>
-                        <li><a href="#">Logo Design</a></li>
-                        <li><a href="#">Wordpress</a></li>
-                        <li><a href="#">Portal</a></li>                      
-                        
-                      </ul>
-                    </li> -->
                     <li class="dropdown">
                       <a href="portfolio.php"  class="a" style="color:#fff">Portfolio</a>
-                   <!--    <i class="icon-angle-down"></i> -->
-                      <!-- <ul class="dropdown-menu">
-                        <li><a href=>My_Portfolio</a></li>
-                        
-                      </ul> -->
                     </li>
-                    <!-- <li class="dropdown">
-                      <a href="#">Blog <i class="icon-angle-down"></i></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
-                        <li><a href="blog-right-sidebar.html">Blog right sidebar</a></li>
-                        <li><a href="blog-fullwidth.html">Blog fullwidth</a></li>
-                        <li><a href="post-left-sidebar.html">Post left sidebar</a></li>
-                        <li><a href="post-right-sidebar.html">Post right sidebar</a></li>
-                      </ul>
-                    </li> -->
                     <li>
                       <a href="contact.php"  class="a" style="color:#fff">Contact</a>
                     </li>
