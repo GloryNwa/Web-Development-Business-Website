@@ -95,7 +95,7 @@
                       <figcaption>
                         <div>
                        <span>
-                            <a href="<?php echo $site;?>"><i class="far fa-eye" style="color:#fff;"></i></a>
+                            <a href="<?php echo $site;?>"><i class="far fa-eye" style="color:#fff;">View Site</i></a>
                        </span>
                         </div>
                       </figcaption>

@@ -44,11 +44,11 @@
     <section id="content">
       <div class="container">       
          <div class="row">
-          <div class="span10">
-            <div class="service-box aligncenter flyLeft">           
+          <div class="span6">
+            <div class="">           
               <div class=" table-responsive">
-                        <table class="table cart-table">
-                            <div class="span6">
+                <table class="table cart-table">
+                 <div class="span6">
                 <h4 class="title"><strong>Registration</strong> - Process<span></span></h4>
 
                 
@@ -116,6 +116,9 @@
                     </tr>                    
                   </tbody>
                 </table>
+                FristName<br>
+                LastName <br>
+                EmailPhone
                  <div class="btn btn-theme btn-block" style="border:none">
                   <a href="paystack.php"><button class="btn btn-cart btn-warning">PROCEED TO CHECKOUT</button></a>
                   </div>

@@ -57,7 +57,7 @@
 
 
 <!-- <h4  style="text-align: center">OUR <strong>SERVICES</strong></h4> -->
-       <?php  $query = "SELECT * FROM services ORDER BY id desc LIMIT 3";
+       <?php  $query = "SELECT * FROM services ORDER BY id";
          if ($query_run = mysqli_query($connection,$query)) {
 
           while($query_row = mysqli_fetch_assoc($query_run)){
@@ -100,11 +100,11 @@
                   <li>Increase website traffic</li>
                   <li>Increase brand awareness</li>
                   <li>Online reputation management</li>
-                 <!--  <li>Increase social media followers/engagement</li> -->
-               <!--    <li>Increase online visibility</li> -->
-                  <!-- <li>Establish your company in local search</li> -->
-               <!--    <li>Establish your brand/business on social media</li> -->
-                  <!-- <li>Marketing Strategy Report</li> -->                
+                  <li>Increase social media followers/engagement</li> 
+                 <li>Increase online visibility</li> 
+                   <li>Establish your company in local search</li>
+                 <li>Establish your brand/business on social media</li>
+                  <li>Marketing Strategy Report</li>               
                </ul>
 
                <a href="viralmarketing.php" style="text-decoration:none;">
