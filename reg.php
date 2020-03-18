@@ -17,7 +17,7 @@ if(isset($_POST["submit"])){
    &&!empty($_SESSION['location'])&&!empty($_SESSION['message'])
    &&!empty( $_SESSION['option'])){
 
-    header("Location:reg2.php");exit;
+    header("Location:paystack.php");exit;
     // echo "$('#formm').trigger('reset');"; 
     // echo "$('#text').fadeOut(2000);";
    }
