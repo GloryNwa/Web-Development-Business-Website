@@ -72,50 +72,7 @@
     </section>
   </div>
 
- <section id="works">
-      <div class="container">
-        <div class="row">
-          <div class="span12">
-            <h4 class="title">Recent <strong>Works</strong></h4>
-            <div class="row">
-              <div class="grid cs-style-4">
-
-             <?php  $query = "SELECT * FROM recentjobs ORDER BY id DESC LIMIT 4";
-               if ($query_run = mysqli_query($connection,$query)) {
-                
-                while($query_row = mysqli_fetch_assoc($query_run)){
-                    $file    = $query_row['picture'];
-                    $site    = $query_row['site'];
-                    $desc    = $query_row['description'];
-                  ?>
-                <div class="span3">
-                  <div class="item">
-                    <figure>
-                      <div> <img src='<?php echo "admin/uploads/" .$file;?>'width="300px" alt="" style="height:200px"/></div>
-                      <figcaption>
-                        <div>
-                       <span>
-                            <a href="<?php echo $site;?>"><i class="far fa-eye" style="color:#fff;">View Site</i></a>
-                       </span>
-                        </div>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </div>
-                </a>
-              <?php
-                 }
-
-              }
-
-           ?>
-           </div>
-           </div>
-          </div>
-        </div>
-      </div>
-
-    </section>
+ 
     <div style="border: 1px solid #ff5821"></div>
    <footer style="background-image: url(img/map.png);">
       <div class="container">
@@ -181,16 +138,12 @@
            <div class="span4">
             <div class="widget">
               <h5 class="widgetheading">Get in touch</h5>
-             <!--  <address>
-          <strong>Eterna company Inc.</strong><br>
-            Somestreet 200 VW, Suite Village A.001<br>
-            Jakarta 13426 Indonesia
-      </address> -->
               <p style="color: #fff">
                 <i class="icon-phone" style="color: #ff5821"></i> +2347068057873 / +2348137434299 <br>
-                <i class="icon-envelope-alt" style="color: #ff5821"></i> info@brilliantdevelopers.net
+                <i class="icon-envelope-alt" style="color: #ff5821"></i> contact@brilliantdevelopers.net<br>
+                <i class="icon-envelope-alt" style="color: #ff5821"></i> techiebabes@gmail.com
               </p>
-              <br>
+           
              <hr>   
               <h5 style="color:#fff">Number Guessing Game</h5>
              <div id="game">

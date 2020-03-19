@@ -53,12 +53,18 @@ $sql .= "VALUES('".mysqli_real_escape_string($connection,$_SESSION['fname'] )."'
 '".mysqli_real_escape_string($connection, $_SESSION['option'])."',                   
 now())";
 
-
+                
 $rest = mysqli_query($connection,$sql);
 if(!$rest){
 
  echo ('Query failed'.mysqli_error($connection));exit;
-}else{                         
+}else{  
+  $key = array_search($id, $_SESSION['cart']);
+  if(($key = array_search($id, $_SESSION['cart'])) !==false) {
+       unset($_SESSION['cart'][$key]);
+   }
+   $_SESSION["cart"] = array_values($key);
+   unset($_SESSION['cart'][$key]);                       
   echo '<h5 style="text-align:center;color:green; margin-top:50px;">Transaction successful. Thank you for doing bussiness with us! <br><br><br><br><img src="img/tenorr.gif"></h5>';
 
 

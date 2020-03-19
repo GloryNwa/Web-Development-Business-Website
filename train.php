@@ -10,23 +10,30 @@
               <div class="bg-img" ></div>
               <ul class="breadcrumb">
                 <li><a href="index.php" style="color:#ff5821 !important">Home</a> <i class="icon-angle-right"></i></li>
-                <li class="active">Pricing </li>
+                <li class="active">Training </li>
               </ul>
-               <h4><strong style="color:#ff5821">Our Plans</strong></h4><
+               <h4><strong style="color:#ff5821">Training</strong></h4>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <div style="border: 1px solid #ff5821"></div>
+
 
     <section id="content">
       <div class="container">
         <div class="row">
 
-       <?php include ("ourPlans.php");?>
-      <hr>
- 
+       <?php include ("training.php");?>
+       
+
+    
+    
+        <div class="row">
+          
+          </div>
+        </div>
+    
       </div>
     </section>
-<?php include("footer3.php");?>
+<?php include("footer2.php");?>

@@ -78,7 +78,7 @@
            <div class="span6">
 
               <ul class="social-network"> 
-              <li><a href="https://linkedin.com/GloryNwa/" data-placement="bottom" title="Linkedin"><i class="icon-linkedin icon-white"></i></a></li>
+              <li><a href="ttps://www.linkedin.com/in/glory-nwa-8a2a27103/" data-placement="bottom" title="Linkedin"><i class="icon-linkedin icon-white"></i></a></li>
                 <!-- <li><a href="#" data-placement="bottom" title="Facebook"><i class="icon-facebook icon-white"></i></a></li> -->
                 <li><a href="https://github.com/GloryNwa/" data-placement="bottom" title="GitHub"><i class="icon-github icon-white"></i></a></li>
                 
@@ -97,7 +97,7 @@
          We are Brilliant Developers driven by group of Brilliant Web Experts, Strategic Thinkers, Creative Designers,
           Programmers, IT Consultants and Software Managers. Developing and managing several web projects
            in Nigeria and Abroad. We can be your 
-        Digital Problems Solution Partner  -- Lets Take Your Business to the Next Level ->>></marquee>
+        Digital Problems Solution Partner  -- Lets Take Your Business to the Next Level >>></marquee>
         <div class="row nomargin">
           <div class="span4">
             <div class="logo">
@@ -110,12 +110,12 @@
                 <nav>
                   <ul class="nav topnav">
                     <li class="dropdown"  style="background-color:#ff5821!important">
-                      <a href="index.php"class="home active a" style="color:#fff"><i class="icon-home" style="color:#fff;"></i> Home</i></a>
+                      <a href="index.php"class="home active a" style="color:#fff;font-size:19px!important"><i class="icon-home" style="color:#fff"></i> Home</i></a>
                     </li>
                     
 
                     <li class="dropdown">
-                      <a href="#"  class="a" style="color:#fff">Our Company<i class="icon-angle-down"></i></a>
+                      <a href="#"  class="a" style="color:#fff;font-size:17px!important">Our Company<i class="icon-angle-down"></i></a>
                       <ul class="dropdown-menu">
                         <li><a href="about.php" class="a">About us</a></li>                      
                        
@@ -128,13 +128,17 @@
                       </ul>
                     </li>
                      <li>
-                      <a href="solutions.php" class="a" style="color:#fff">Our Solutions</a>
+                      <a href="solutions.php" class="a" style="color:#fff;font-size:17px!important">Our Solutions</a>
                     </li>
                     <li class="dropdown">
-                      <a href="portfolio.php"  class="a" style="color:#fff">Portfolio</a>
+                      <a href="portfolio.php"  class="a" style="color:#fff;font-size:17px!important">Recent Works</a>
                     </li>
+                    <li class="dropdown">
+                      <a href="train.php"  class="a" style="color:#fff;font-size:17px!important">Training</a>
+                    </li>
+                    
                     <li>
-                      <a href="contact.php"  class="a" style="color:#fff">Contact</a>
+                      <a href="contact.php"  class="a" style="color:#fff;font-size:17px!important">Contact</a>
                     </li>
                   </ul>
                 </nav>

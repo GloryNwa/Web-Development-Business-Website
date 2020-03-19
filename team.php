@@ -31,7 +31,7 @@
             </ul> -->
          
             <div class="clearfix"></div>
-            <h4 class="title">Brilliant Developers <strong>  Team Members</strong></h4>
+            <h4 class="title">Brilliant Developers <strong>  Team </strong></h4>
             <div class="row">
               <section id="team">
                 <ul id="thumbs" class="team">

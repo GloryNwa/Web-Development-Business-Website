@@ -126,10 +126,9 @@ if(isset($_POST["submit"])){
                 <h5 class="widgetheading" style="color:#fff">Contact information<span></span></h5>
 
                 <ul class="contact-info">
-                <!--   <li><label>Address :</label> Tinggi sekali tower Jl.Kemacetan timur<br /> Jakarta selatan - Indonesia</li> -->
-                  <li><label style="color:#ff5821">Phone :</label>+2347068057873 / +2348137434299</li>
-           <!--        <li><label>Fax : </label>+62 123 456 10 / +62 123 456 11</li> -->
-                  <li><label style="color:#ff5821">Email : </label>contact@brilliantdevelopers.net <br> techiebabes@gmail.com</li>
+                <i class="icon-phone" style="color: #ff5821"></i> +2347068057873 / +2348137434299 <br>
+                <i class="icon-envelope-alt" style="color: #ff5821"></i> contact@brilliantdevelopers.net<br>
+                <i class="icon-envelope-alt" style="color: #ff5821"></i> techiebabes@gmail.com
                 </ul>
 
               </div>
@@ -138,4 +137,4 @@ if(isset($_POST["submit"])){
         </div>
       </div>
     </section>
-  <?php include("footer2.php");?>
+  <?php include("footer4.php");?>

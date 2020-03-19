@@ -81,12 +81,7 @@ span{
                 <p>
                Brilliant Developers, we always integrate Google Analytics on websites we work on. This robust software gives our clients the ability to track and analyze detailed information about their website visitors. Through our integration of Google Analytics on an online store, our clients gain access to an enormous amount of information concerning the website’s visitors.
                </p>
-               <br>
-                <h5><strong></strong> <span class="colored">Effortless Management & Updates</span></h5>
-           
-                <p>
-                 The online stores we build come with a user-friendly content management system (CMS) which gives website and business administrators the ability to update the online store effortlessly. From updating product information to changing website graphics, the CMS makes it easy to keep the website up-to-date.
-               </p>
+                    
             </div>
           </div>
           <div class="span6">
@@ -105,43 +100,22 @@ span{
                   <li>Online reputation management</li> -->
                </ul>
               
+            <br><br>
                 <img src="img/pay.jpg" width="100%" alt="" class="flyRight" />  
 
-            <br><br>
+                <br><br><br>
+                <h5><strong></strong> <span class="colored">Effortless Management & Updates</span></h5>
+           
+                <p>
+                 The online stores we build come with a user-friendly content management system (CMS) which gives website and business administrators the ability to update the online store effortlessly. From updating product information to changing website graphics, the CMS makes it easy to keep the website up-to-date.
+               </p>
           </div>
 
         </div>
-        <div class="row">
-          <div class="span12">
-            <!-- <div class="solidline"></div> -->
-          </div>
-        </div>
-        <?php include ("training.php");?>
-
-       <hr>
-
-         <div class="row">
-          <div class="span12">
-            <div class="cta-box">
-              <div class="row">
-                <div class="span8">
-                  <div class="cta-text">
-                    <h4>Special price within a <span style="color:#ff5821">shorter</span> time frame</h4>
-                  </div>
-                </div>
-                <div class="span4">
-                  <div class="cta-btn">
-                    <a href="contact.php" class="btn btn-theme" style="background-color:#ff5821">Contact Us <i class="icon-angle-right"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr>
+       
 
       </div>
     </section>
 
 </div>
-<?php include("footer3.php");?>
+<?php include("footer2.php");?>

@@ -59,7 +59,7 @@
         <div class="container">
           <div class="row">
             <div class="span6">
-              <p class="topcontact" style="color:#fff"><i class="icon-phone"></i>+2347068057873 / +2348137434299</p>
+              <p class="topcontact" style="color:#fff;font-size:17px"><i class="icon-phone"></i>+2347068057873 / +2348137434299</p>
             </div>
           </div>
         </div>
@@ -74,33 +74,38 @@
           <div class="span8">
             <div class="navbar navbar-static-top">
               <div class="navigation">
-                <nav>
+              <nav style="margin-left:90px">
                   <ul class="nav topnav">
                     <li class="dropdown"  style="background-color:#ff5821!important">
-                      <a href="index.php"class="home active a" style="color:#fff"><i class="icon-home" style=
-                      "color:#fff;"></i> Home</i></a>
+                      <a href="index.php"class="home active a" style="color:#fff;font-size:15px!important"><i class="icon-home" style="color:#fff"></i> Home</i></a>
                     </li>
+                    
+
                     <li class="dropdown">
-                      <a href="about.php"  class="a" style="color:#fff">Our Company<i class="icon-angle-down"></i></a>
+                      <a href="#"  class="a" style="color:#fff;font-size:15px!important">Our Company<i class="icon-angle-down"></i></a>
                       <ul class="dropdown-menu">
                         <li><a href="about.php" class="a">About us</a></li>                      
                        
                         <li><a href="services.php"  class="a">Services</a></li>
                         <li><a href="pricing.php"  class="a">Our Plans</a></li>
-                        <li><a href="team.php"  class="a">Team</a></li>
+                        <li><a href="team.php"  class="a">Our Team</a></li>
                         <li><a href="privacy.php" class="a">Privacy Policy</a></li>
                         <li><a href="terms.php"  class="a">Project Terms</a></li>
                      <!--    <li><a href="404.html">404</a></li> -->
                       </ul>
                     </li>
                      <li>
-                      <a href="solutions.php" class="a" style="color:#fff">Our Solutions</a>
+                      <a href="solutions.php" class="a" style="color:#fff;font-size:15px!important">Our Solutions</a>
                     </li>
                     <li class="dropdown">
-                      <a href="portfolio.php"  class="a" style="color:#fff">Portfolio</a>
+                      <a href="portfolio.php"  class="a" style="color:#fff;font-size:15px!important">Recent Works</a>
                     </li>
+                    <li class="dropdown">
+                      <a href="train.php"  class="a" style="color:#fff;font-size:15px!important">Training</a>
+                    </li>
+                    
                     <li>
-                      <a href="contact.php"  class="a" style="color:#fff">Contact</a>
+                      <a href="contact.php"  class="a" style="color:#fff;font-size:15px!important">Contact</a>
                     </li>
                   </ul>
                 </nav>
@@ -153,7 +158,7 @@
           <div class="container-fluid">        
            <div class="row">
 
-            <?php  $query = "SELECT * FROM recentjobs ORDER BY id DESC LIMIT 10";
+            <?php  $query = "SELECT * FROM recentjobs ORDER BY id DESC LIMIT 6";
                if ($query_run = mysqli_query($connection,$query)) {
                 
                 while($query_row = mysqli_fetch_assoc($query_run)){
@@ -268,15 +273,10 @@
 
            <div class="span4">
             <div class="widget">
-              <h5 class="widgetheading">Get in touch</h5>
-             <!--  <address>
-          <strong>Eterna company Inc.</strong><br>
-            Somestreet 200 VW, Suite Village A.001<br>
-            Jakarta 13426 Indonesia
-      </address> -->
               <p style="color: #fff">
                 <i class="icon-phone" style="color: #ff5821"></i> +2347068057873 / +2348137434299 <br>
-                <i class="icon-envelope-alt" style="color: #ff5821"></i> info@brilliantdevelopers.net
+                <i class="icon-envelope-alt" style="color: #ff5821"></i> contact@brilliantdevelopers.net<br>
+                <i class="icon-envelope-alt" style="color: #ff5821"></i> techiebabes@gmail.com
               </p>
                 <hr>   
               <h5 style="color:#fff">Number Guessing Game</h5>
@@ -304,13 +304,7 @@
 
             <div class="span6">
               <div class="credits" style="text-align:  right;margin-top: 0px !important">
-                <!--
-                  All the links in the footer should remain intact.
-                  You can delete the links only if you purchased the pro version.
-                  Licensing information: https://bootstrapmade.com/license/
-                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Eterna
-                --><!-- 
-                Designed by <span style="color: #ff5821;">  Brilliant Developers</span> -->
+               
               </div>
             </div>
           </div>

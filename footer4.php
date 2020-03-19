@@ -30,11 +30,7 @@
     text-decoration:none
   }
 </style>
-
-<div class="row">
-         
-<div style="border: 1px solid #ff5821"></div>
-   <footer style="background-image: url(img/map.png);">
+     <footer style="background-image: url(img/map.png);">
       <div class="container">
 
         <div class="row">
@@ -97,26 +93,14 @@
 
            <div class="span4">
             <div class="widget">
-              <h5 class="widgetheading">Get in touch</h5>
-             <!--  <address>
-          <strong>Eterna company Inc.</strong><br>
-            Somestreet 200 VW, Suite Village A.001<br>
-            Jakarta 13426 Indonesia
-      </address> -->
-              <p style="color: #fff">
-                <i class="icon-phone" style="color: #ff5821"></i> +2347068057873 / +2348137434299 <br>
-                <i class="icon-envelope-alt" style="color: #ff5821"></i> info@brilliantdevelopers.net
-              </p>
-              <br>
-             <hr>   
+               
               <h5 style="color:#fff">Number Guessing Game</h5>
-             <div id="game">
+              <div id="game">
              <p style="color: #fff">Guess a number between <span class="min-num"></span> and <span class="max-num"></span></p>
              <input type="number" id="guess-input" placeholder="Enter your quess..." style="padding:6px">
              <input type="submit" value="Go" id="guess-btn"style="background-color:#ff5821; color: #fff;border:none; border-radius:2px; padding:6px; margin-bottom:8px">
              <p class="message"></p>
             </div>
-
 
             </div>
           </div> 
@@ -135,13 +119,7 @@
 
             <div class="span6">
               <div class="credits">
-                <!--
-                  All the links in the footer should remain intact.
-                  You can delete the links only if you purchased the pro version.
-                  Licensing information: https://bootstrapmade.com/license/
-                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Eterna
-                -->
-               <!--  Designed by <span style="color: #ff5821">  Brilliant Developers</span> -->
+               
               </div>
             </div>
           </div>
@@ -149,7 +127,7 @@
       </div>
     </footer>
   </div>
-  <a href="#" class="scrollup" style="background-color:#ff5821 !important "><i class="icon-angle-up icon-square icon-bglight icon-2x"></i></a>
+  <!-- <a href="#" class="scrollup" style="background-color:#ff5821 "><i class="icon-angle-up icon-square icon-bglight icon-2x"></i></a> -->
 
   <!-- javascript
     ================================================== -->
@@ -173,56 +151,11 @@
   <script src="js/animate.js"></script>
   <script src="js/inview.js"></script>
 
-  <script src="https://js.paystack.co/v1/inline.js"></script>
-
   <!-- Template Custom JavaScript File -->
   <script src="js/custom.js"></script>
 
    <script src="js/guesser.js"></script>
-
-   <script type="text/javascript">
-     function payWithPaystack(glory){
-
-    var handler = PaystackPop.setup({
-      key: 'pk_test_76077b21fc087731cb271079ee8063506132c903',
-      email: glory['email'],
-      amount: glory['amount'] * 100,
-      currency: "NGN",
-      ref: ''+Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
-      metadata: {
-         custom_fields: [
-            {
-                display_name: glory['fname'] + ' ' + glory['lname'],
-                variable_name: "mobile_number",
-                value: glory['phone']
-            }
-         ]
-      },
-      callback: function(response){
-          var ref = response.reference;
-
-          var bright = {};
-          bright.fname = glory['fname'];
-          bright.lname = glory['lname'];
-          bright.phone = glory['phone'];
-          bright.ref = ref;
-
-          $.ajax({
-            method: "post",
-            data: bright,
-            url: "verify.php",
-            success: function(nwa){
-              console.log(nwa);
-            }
-          });
-      },
-      onClose: function(){
-          // alert('window closed');
-      }
-    });
-    handler.openIframe();
-  }
-   </script>
+   <script src="js/alert.js"></script>
 </body>
 </html>
    

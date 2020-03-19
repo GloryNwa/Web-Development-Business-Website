@@ -12,20 +12,12 @@
 
     <div class="row">
           <div class="span12">
-           <!--  <div class="row">
-              <div class="span12">
-                <div class="aligncenter">
-                  <h3>Our <strong>Pricing</strong></h3>
-                  <p>Lorem ipsum dolor sit amet, labores dolorum scriptorem eum an, te quodsi sanctus neglegentur.
-                  </p>
-                </div>
-              </div>
-            </div> -->
             <div class="row">
               <div class="span12">
                 <div class="aligncenter">
                   <h4>Our <strong>Plans</strong></h4>
-                  <p><!-- Lorem ipsum dolor sit amet, labores dolorum scriptorem eum an, te quodsi sanctus neglegentur. -->
+                  <p>
+                <!-- <h4>Special price within a <span style="color:#ff5821">shorter</span> time frame. Choose a plan!</h4> -->
                   </p>
                 </div>
               </div>
@@ -166,12 +158,5 @@
               </div>
             </div>
 
-
-           <!--  <br>
-            <h4 style="text-align: center">Our <strong>Process</strong></h4 >
-            The process of web development services at Brillian Developers goes through a series of stages in a step wise fashion that almost every developing company follows.<br> Known as the "Web Development Life Cycle."
-            These four steps we adopt are shown in the Infographic below.
-            
-             <a href="#"><img src="img/conceptt.PNG" alt="" style="width:100%;" /></a> -->
           </div>
         </div>

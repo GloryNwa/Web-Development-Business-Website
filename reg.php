@@ -17,7 +17,7 @@ if(isset($_POST["submit"])){
    &&!empty($_SESSION['location'])&&!empty($_SESSION['message'])
    &&!empty( $_SESSION['option'])){
 
-    header("Location:reg2.php");exit;
+    header("Location:paystack.php");exit;
     // echo "$('#formm').trigger('reset');"; 
     // echo "$('#text').fadeOut(2000);";
    }
@@ -108,7 +108,7 @@ if(isset($_POST["submit"])){
                     placeholder="How will your like to recieve the lectures?" required style="border: 1px solid #ff5821" maxlength="60" required="required"  reset()></textarea>
                   <div class="validation"></div>
                   <div class="text-center">
-                    <button class="btn btn-theme btn-medium margintop10" name="submit" type="submit" style="background-color:#ff5821; width: 100%">Register</button>
+                  <button class="btn btn-theme btn-medium margintop10" name="submit" type="submit" style="background-color:#ff5821; width: 100%">Register</button>
                   </div>
                 </div>
               </div>
@@ -122,10 +122,9 @@ if(isset($_POST["submit"])){
                 <h5 class="widgetheading" style="color:#fff">Contact information<span></span></h5>
 
                 <ul class="contact-info">
-                <!--   <li><label>Address :</label> Tinggi sekali tower Jl.Kemacetan timur<br /> Jakarta selatan - Indonesia</li> -->
-                  <li><label style="color:#ff5821">Phone :</label>+2347068057873 / +2348137434299</li>
-           <!--        <li><label>Fax : </label>+62 123 456 10 / +62 123 456 11</li> -->
-                  <li><label style="color:#ff5821">Email : </label>contact@brilliantdevelopers.net<br> techiebabes@gmail.com</li>
+                <i class="icon-phone" style="color: #ff5821"></i> +2347068057873 / +2348137434299 <br>
+                <i class="icon-envelope-alt" style="color: #ff5821"></i> contact@brilliantdevelopers.net<br>
+                <i class="icon-envelope-alt" style="color: #ff5821"></i> techiebabes@gmail.com
                 </ul>
 
               </div>
@@ -137,4 +136,4 @@ if(isset($_POST["submit"])){
     <script>
   $("#form")[0].reset();
     </script>
-  <?php include("footer2.php");?>
+  <?php include("footer4.php");?>

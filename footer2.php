@@ -100,8 +100,9 @@
             Jakarta 13426 Indonesia
       </address> -->
               <p style="color: #fff">
-                <i class="icon-phone" style="color: #ff5821"></i> +2347068057873 / +2348137434299 <br>
-                <i class="icon-envelope-alt" style="color: #ff5821"></i> info@brilliantdevelopers.net
+              <i class="icon-phone" style="color: #ff5821"></i> +2347068057873 / +2348137434299 <br>
+              <i class="icon-envelope-alt" style="color: #ff5821"></i> contact@brilliantdevelopers.net<br>
+                <i class="icon-envelope-alt" style="color: #ff5821"></i> techiebabes@gmail.com
               </p>
                 <hr>   
               <h5 style="color:#fff">Number Guessing Game</h5>

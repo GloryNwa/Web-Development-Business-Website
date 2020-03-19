@@ -44,97 +44,12 @@ We are driven by group of Young Brilliant Web Developers, Strategic Thinkers, Cr
 
         <!-- divider -->
         <div class="row">
-          <div class="span12">
-            <div class="solidline"></div>
-          </div>
+          
         </div>
         <!-- end divider -->
-        <h4 class="title">Brilliant Developers <strong>  Team</strong></h4>
-       
-      <div class="row">
-              <section id="team">
-                <ul id="thumbs" class="team">
-
-                  <!-- Item Project and Filter Name -->
-                  <?php  $query = "SELECT * FROM team ORDER BY id ASC LIMIT 8";
-                       if ($query_run = mysqli_query($connection,$query)) {
-
-                        while($query_row = mysqli_fetch_assoc($query_run)){
-                            $file    = $query_row['pics'];
-                            $name    = $query_row['name'];
-                            $twitter = $query_row['twitter'];
-                            $insta   = $query_row['instagram'];
-                            $facebook = $query_row['facebook'];
-                            $position = $query_row['position'];
-                            $git      = $query_row['github'];
-                            $linkedin      = $query_row['linkedin'];
-                            
-                          
-                      ?>
-                   <li class="item-thumbs span4 design" data-id="id-0" data-type="design">
-                    <div class="team-box thumbnail" style="height: 320px">
-                   
-                      <img src="<?php echo 'admin/teamPics/' .$file;?>" height="" alt=""  style="height: 200px" />
-                      <div class="caption">
-                        <h5><?php echo $name; ?></h5>
-                        <p>
-                          <?php echo $position; ?>
-                        </p>
-                       
-                        <ul class="social-network">
-                        <?php if($linkedin == ''){
-                            echo '';
-                          }else{?>
-                            <li><a href="<?php echo $linkedin;?>" title="Linkedin"><i class="icon-circled icon-bgdark icon-linkedin"></i></a></li> 
-                            <?php
-                          }?>
-                          <?php if($twitter == ''){
-                            echo '';
-                          }else{?>
-                            <li><a href="<?php echo $twitter;?>" title="Twitter"><i class="icon-circled icon-bgdark icon-twitter"></i></a></li> 
-                            <?php
-                          }?>
-                           <?php if( $facebook  == ''){
-                            echo '';
-                          }else{?>
-
-                            <li><a href="<?php echo $facebook;?>" title="facebook"><i class="icon-circled icon-bgdark icon-facebook"></i></a></li>
-                            <?php 
-                          }?>
-                           <?php if($git == ''){
-                            echo '';
-                          }else{?>
-                            <li><a href="<?php echo $git;?>" title="github"><i class="icon-circled icon-bgdark icon-github"></i></a></li>
-                            <?php 
-                          }?>
-                           <?php if($insta == ''){
-                            echo '';
-                          }else{?>
-                            <li><a  href="<?php echo $insta;?>" title="instagram"><i class="icon-circled icon-bgdark icon-instagram"></i></a></li> 
-                            <?php
-                          // }else{
-                          //   echo '';
-                          }
-                          ?>
-                         
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
-                  <!-- End Item Project -->
-
-                  <!-- Item Project and Filter Name -->
-                   <?php
-                      }
-
-                     }
-                  ?>
-                </ul>
-              </section>
-
-            </div>
+     
+      
         </div>
-        <div class="blankline30"></div>
       </div>
     </section>
    <?php include("footer2.php");?>
