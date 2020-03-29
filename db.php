@@ -1,14 +1,14 @@
 <?php
 
-$db_host = 'localhost';
-$db_user = 'root';
-$db_password = '';
-$db_name = 'brilliantdevelopers';
+// $db_host = 'localhost';
+// $db_user = 'root';
+// $db_password = '';
+// $db_name = 'brilliantdevelopers';
 
-// $db_host = 'remotemysql.com';
-// $db_user = 'OcMuDHYdvB';
-// $db_password = 'vLyByNx3xj';
-// $db_name = 'OcMuDHYdvB';
+$db_host = 'remotemysql.com';
+$db_user = 'OcMuDHYdvB';
+$db_password = 'vLyByNx3xj';
+$db_name = 'OcMuDHYdvB';
 
 
 
