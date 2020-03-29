@@ -25,8 +25,6 @@
         <div class="row">
 
        <?php include ("ourPlans.php");?>
-      <hr>
- 
       </div>
     </section>
 <?php include("footer3.php");?>

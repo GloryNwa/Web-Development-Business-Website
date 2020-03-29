@@ -95,8 +95,8 @@
 
         <marquee style="color:#ff5821">Welcome to Brilliant Developers! Thank you for visiting our site.
          We are Brilliant Developers driven by group of Brilliant Web Experts, Strategic Thinkers, Creative Designers,
-          Programmers, IT Consultants and Software Managers. Developing and managing several web projects
-           in Nigeria and Abroad. We can be your 
+          Programmers, IT Consultants and Software Managers. Brilliant Developers is on a mission to help businesses
+           succeed through Exceptional Digital Services. We focus on Real World Results. We can be your 
         Digital Problems Solution Partner  -- Lets Take Your Business to the Next Level >>></marquee>
         <div class="row nomargin">
           <div class="span4">
