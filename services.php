@@ -113,14 +113,7 @@
           </div>
           </div>
          </div>
-
-          
-        <br>
-       
         </div>
-    <hr>
-
-
       </div>
 
     </section>

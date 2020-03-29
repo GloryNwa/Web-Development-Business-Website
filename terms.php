@@ -28,7 +28,7 @@
       <div class="container">
         <div class="row">
           <div class="span10">    
-             <div class="box ">
+             <!-- <div class="box "> -->
                   <!-- <div class="icon">
                     <i class="ico icon-circled icon-bgdark icon-pencil active icon-3x" style="background-color:#ff5821"></i>
                   </div>&nbsp;&nbsp; -->
@@ -36,8 +36,8 @@
                     <h4> <strong>Terms & Condition of Brilliant Developers.</strong></h4>
                      <h6>Welcome to Brilliant Developers!</h6>
                      <br>
-<div style="border: 10px dotted; padding: 15px;  background-color:">                
-<h5 style="color:#ff5821">PROJECT TERMS</h5>
+<div style="border: 10px dotted; background-color:align:center;padding:8px"> <br>               
+<h5 style="color:#ff5821;padding-left:5px">PROJECT TERMS</h5>
 <div style=" color:#000">
 <ul>
     <li>All estimates/quotes are based on our understanding of your requirements and as per given time-frame. Any changes to the functionality including micro-improvements, may delay your work. Please ensure and clarify our understanding
@@ -230,6 +230,6 @@ Client is solely responsible for the content stored on and served by the hosting
    </div>
    </div>         
 </div>
-</div>
+<!-- </div> -->
 
   <?php include("footer2.php");?>

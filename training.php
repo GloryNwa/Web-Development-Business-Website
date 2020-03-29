@@ -1,57 +1,42 @@
- 
+<?php include("header.php");?>  
     <!-- end header -->
-<style>
-  h4:hover{
-    color: #ff5821 !important;
-    
-  }
-  .btn-medium{
-   background-color: #ff5821 !important;
-   color:#fff;
-  }
-  .btn:hover{
-   background-color: #ff5821 !important;
-   color:#fff;
-  }
-  h5:hover{
-    color: #ff5821 !important;
-    background-color: none !important;
-    
-  }
- .url:hover{
-    color: #ff5821 !important;
-    background-color: none !important;
-    text-decoration:none
-  }
-   }
- li.url:hover{
-    color: #ff5821 !important;
-    background-color: none !important;
-    text-decoration:none
-  }
-</style>
 
- <div class="row">
+   <section id="inner-headline" style="background-image: url(img/buildings.png);">
+      <div class="container">
+
+        <div class="row">
+          <div class="span12">
+            <div class="inner-heading">
+              <div class="bg-img" ></div>
+              <ul class="breadcrumb">
+                <li><a href="index.php" style="color:#ff5821 !important">Home</a> <i class="icon-angle-right"></i></li>
+                <li class="active">Training </li>
+              </ul>
+               <h4><strong style="color:#ff5821">Training</strong></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="content">
+      <div class="container">
+      <div class="row">
            <div class="span6">
             <div class="flyLeft">
               <h5><span class="colored" style="color:#ff5821"></span>Web Development  & <strong>Programming Training</strong></h5>
 
                 <h6>__ABOUT THE TRAINING__</h6>
 
-              <?php  $query = "SELECT * FROM webtraining ORDER BY id DESC LIMIT 1";
-               if ($query_run = mysqli_query($connection,$query)) {
-
-                while($query_row = mysqli_fetch_assoc($query_run)){
-                    $file = $query_row['pics'];
-                    $desc = $query_row['description'];
-            
-             ?>
-
               <p>
-               <?php echo $desc;?>
+              Amount to be paid for this training is ₦55,000 including certificate of 
+              completion. Installmental payment is allowed.
+               Duration: Six months (6 Months)
               </p>
               <br>
-              
+             
+               
               <h6>Amount to be paid for this training is ₦55,000 including certificate of completion. Installmental payment is allowed.</h6>
 
              <h6> Duration: Six months (6 Months)</h6>
@@ -78,7 +63,7 @@
             </div>
           </div> 
           <div class="span6">
-           <img src='<?php echo "admin/uploads/" .$file;?>' alt="" class="flyRight" />
+           <img src='img/train.png' alt="" class="flyRight" />
             <br>
             
               <!-- <br><br> -->
@@ -89,11 +74,14 @@
 
           </div>
 
-           <?php
-                 }
-                }   
-
-              ?>
-               
+          
              
         </div>
+
+          
+          </div>
+        </div>
+    
+      </div>
+    </section>
+<?php include("footer3.php");?>

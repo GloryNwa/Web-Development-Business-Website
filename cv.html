@@ -40,3 +40,40 @@ Bachelor of Science in Computer and Information Systems2002
 Georgia State UniversityAtlanta Georgia
 Hobbies and Interests
 After my work day ends each day, I work on hobbies that are based on computers and technology. I am a volunteer at a local community technology venture that aims to bring high-tech devices to low-income neighborhoods. I work with local vendors to get technology donations onto a portable technology bus that visits various parts of the city several times a week. On the bus, I assist young people and the elderly with getting connected.
+
+
+<ul class="social-network">
+    <?php if($linkedin == ''){
+        echo '';
+      }else{?>
+        <li><a href="<?php echo $linkedin;?>" title="Linkedin"><i class="icon-circled icon-bgdark icon-linkedin"></i></a></li> 
+        <?php
+      }?>
+      <?php if($twitter == ''){
+        echo '';
+      }else{?>
+        <li><a href="<?php echo $twitter;?>" title="Twitter"><i class="icon-circled icon-bgdark icon-twitter"></i></a></li> 
+        <?php
+      }?>
+       <?php if( $facebook  == ''){
+        echo '';
+      }else{?>
+
+        <li><a href="<?php echo $facebook;?>" title="facebook"><i class="icon-circled icon-bgdark icon-facebook"></i></a></li>
+        <?php 
+      }?>
+       <?php if($git == ''){
+        echo '';        
+      }else{?>
+        <li><a href="<?php echo $git;?>" title="github"><i class="icon-circled icon-bgdark icon-github"></i></a></li>
+        <?php 
+      }?>
+       <?php if($insta == ''){
+        echo '';
+      }else{?>
+        <li><a  href="<?php echo $insta;?>" title="instagram"><i class="icon-circled icon-bgdark icon-instagram"></i></a></li> 
+        <?php
+     
+      ?>
+     
+    </ul> --

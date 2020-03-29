@@ -82,7 +82,7 @@
                 <!-- <li><a href="#" data-placement="bottom" title="Facebook"><i class="icon-facebook icon-white"></i></a></li> -->
                 <li><a href="https://github.com/GloryNwa/" data-placement="bottom" title="GitHub"><i class="icon-github icon-white"></i></a></li>
                 
-                <li><a href="#" data-placement="bottom" title="twitter"><i class="icon-twitter  icon-white"></i></a></li>
+                <!-- <li><a href="#" data-placement="bottom" title="twitter"><i class="icon-twitter  icon-white"></i></a></li> -->
                 <!-- <li><a href="#" data-placement="bottom" title="Google +"><i class="icon-google-plus icon-white"></i></a></li>
                 <li><a href="#" data-placement="bottom" title="Dribbble"><i class="icon-dribbble icon-white"></i></a></li> -->
               </ul>
@@ -134,7 +134,7 @@
                       <a href="portfolio.php"  class="a" style="color:#fff;font-size:17px!important">Recent Works</a>
                     </li>
                     <li class="dropdown">
-                      <a href="train.php"  class="a" style="color:#fff;font-size:17px!important">Training</a>
+                      <a href="training.php"  class="a" style="color:#fff;font-size:17px!important">Training</a>
                     </li>
                     
                     <li>

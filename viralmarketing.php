@@ -81,4 +81,5 @@
     </section>
 
 </div>
-<?php include("footer2.php");?>
+<hr>
+<?php include("footerr.php");?>

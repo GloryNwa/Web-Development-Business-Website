@@ -22,7 +22,7 @@
 
        <div class="row">            
          <div class="span9">
-                <div class="box ">
+                
                   <!-- <div class="icon">
                    <i class="ico icon-circled icon-bgdark icon-pencil active icon-3x" style="background-color:#ff5821"></i>
                   </div> -->
@@ -31,7 +31,7 @@
                     <h6>Welcome to Brilliant Developers!</h6>
                      <br>
                     
-<div style="border: 10px dotted; padding: 15px;  background-color:">                
+<div style="border: 10px dotted; padding:5px;  background-color:">                
 
 <ul>
    
@@ -43,8 +43,8 @@
    </div>
    </div>
   </div>
-</div>         
-</div><hr>
+        
+</div>
 </div>
 
   <?php include("footer2.php");?>

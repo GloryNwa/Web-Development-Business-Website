@@ -1,6 +1,6 @@
 
     <!-- end header -->
-<style>
+    <style>
   h4:hover{
     color: #ff5821 !important;
     
@@ -33,22 +33,35 @@
 
 <div class="row">
           <div class="span12 aligncenter">
-          
+            <h4 class="title">What people are <strong>saying</strong> about us</h4>
             <div class="blankline30"></div>
 
             <ul class="bxslider">
-           
-          
+            <?php  $query = "SELECT * FROM testimony LIMIT 7";
+             if ($query_run = mysqli_query($connection,$query)) {
+
+
+         while($query_row = mysqli_fetch_assoc($query_run)){
+              $testimoni = $query_row['testimoni'];
+              $name = $query_row['name'];
+              $url = $query_row['url'];     
+            
+          ?>
               <li>
-                
+                <blockquote>
+                <?php echo $testimoni;?>
+                </blockquote>
                 <div class="testimonial-autor">
                   <!-- <img src="img/dummies/testimonial/1.png" alt="" /> -->
-                  <h4></h4>
+                  <h4><?php echo $name; ?></h4>
                   <a href="#">
-                  <div class="url"></div></a>
+                  <div class="url"><?php echo $url;?></div></a>
                 </div>
               </li>
-              
+              <?php
+               }
+              }
+            ?>
             
             </ul>
 
@@ -56,7 +69,7 @@
         </div>
 
       </div>
-    </section>
+    
   </div>
 
  

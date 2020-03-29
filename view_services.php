@@ -5,7 +5,7 @@
         <div class="row">
           <div class="span12">
             <div class="inner-heading">
-                  <div class="bg-img" ></div>
+             <div class="bg-img" ></div>
               <ul class="breadcrumb">
                 <li><a href="index.php" style="color:#ff5821 !important">Home</a> <i class="icon-angle-right"></i></li>
                 <li class="active">Services</li>
@@ -22,9 +22,6 @@
 
     <section id="content">
       <div class="container">
-
-      
-
         <div class="row">
         <?php
           if(isset($_GET['post/id'])){
@@ -40,28 +37,28 @@
                   $desc = $query_row['description'];
                   $file = $query_row['pics'];
              ?>
+       
           <div class="span6">
+         
             <div class="flyLeft">
               <h4><b><?php echo $title2;?></b><span class="colored"></span></h4>
               <p>
                  <?php echo $desc;?>
-              </p>
-              <div class="blankline"></div>
+               </p>
               
             </div>
           </div>
           <div class="span6">
                   <img src='<?php echo "admin/servicesUploads/" .$file;?>' alt="" class="flyRight" />
           </div>
-          <?php
+       
+        <?php
               }
-            } else{
-                echo "";exit;
             }
             } 
             ?>
-
-        </div>  </div>     
-        <br>   
-       
-    <?php include('footer2.php');?>
+        </div> 
+        </div>    
+     </section>
+    <hr>
+    <?php include('footerr.php');?>

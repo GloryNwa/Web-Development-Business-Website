@@ -88,13 +88,8 @@ We have everything you need to launch and grow a successful digital business.</p
             <img src="img/webb.png" alt="" class="flyRight" />
           </div>
 
-        </div>
-        <div class="row">
-          <div class="span12">
-            <!-- <div class="solidline"></div> -->
-          </div>
-        </div>
-        <hr>
+     
+        
         <div class="row">
          
           </div>
@@ -103,6 +98,6 @@ We have everything you need to launch and grow a successful digital business.</p
 
       </div>
     </section>
+<hr>
 
-</div>
-<?php include("footer3.php");?>
+<?php include("footerr.php");?>

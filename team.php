@@ -63,40 +63,7 @@
                         </p>
                        
                         <ul class="social-network">
-                        <?php if($linkedin == ''){
-                            echo '';
-                          }else{?>
-                            <li><a href="<?php echo $linkedin;?>" title="Linkedin"><i class="icon-circled icon-bgdark icon-linkedin"></i></a></li> 
-                            <?php
-                          }?>
-                          <?php if($twitter == ''){
-                            echo '';
-                          }else{?>
-                            <li><a href="<?php echo $twitter;?>" title="Twitter"><i class="icon-circled icon-bgdark icon-twitter"></i></a></li> 
-                            <?php
-                          }?>
-                           <?php if( $facebook  == ''){
-                            echo '';
-                          }else{?>
-
-                            <li><a href="<?php echo $facebook;?>" title="facebook"><i class="icon-circled icon-bgdark icon-facebook"></i></a></li>
-                            <?php 
-                          }?>
-                           <?php if($git == ''){
-                            echo '';
-                          }else{?>
-                            <li><a href="<?php echo $git;?>" title="github"><i class="icon-circled icon-bgdark icon-github"></i></a></li>
-                            <?php 
-                          }?>
-                           <?php if($insta == ''){
-                            echo '';
-                          }else{?>
-                            <li><a  href="<?php echo $insta;?>" title="instagram"><i class="icon-circled icon-bgdark icon-instagram"></i></a></li> 
-                            <?php
-                          // }else{
-                          //   echo '';
-                          }
-                          ?>
+                        
                          
                         </ul>
                       </div>
