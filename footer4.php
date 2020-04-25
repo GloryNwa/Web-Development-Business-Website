@@ -43,7 +43,7 @@
                 <a href="services.php"><li class="url">What We Do</li></a>
                 <a href="team.php"><li class="url">Our Team</li></a>
                 <a href="privacy.php"><li class="url">Privacy Policy</li></a>
-                <a href="terms.php"><li class="url">Term and Conditions</li></a>
+                <a href="terms.php"><li class="url">Project Terms</li></a>
                <!--  <li><a href="#">Press release</a></li> -->
               <!--   <li><a href="#">What we have done</a></li> -->
                </ul>

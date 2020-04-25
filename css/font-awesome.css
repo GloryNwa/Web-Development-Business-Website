@@ -1048,9 +1048,12 @@ a .icon-flip-vertical:before {
 .icon-building:before {
   content: "\f0f7";
 }
-.icon-hospital:before {
+.icon-whatsapp:before {
   content: "\f0f8";
 }
+/* .icon-hospital:before {
+  content: "\f0f8";
+} */
 .icon-ambulance:before {
   content: "\f0f9";
 }

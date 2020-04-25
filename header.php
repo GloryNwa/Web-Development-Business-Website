@@ -73,7 +73,7 @@
         <div class="container">
           <div class="row">
             <div class="span6">
-              <p class="topcontact" style="color:#fff; font-size:17px"><i class="icon-phone"></i>&nbsp;+2347068057873 / +2348137434299</p>
+              <p class="topcontact" style="color:#fff; font-size:17px"><i class="icon-phone"></i>&nbsp; <a class="url" href="tel:+07068057873"style="color:#fff;">07068057873 </a>, <a class="url" href="tel:+08137434299" style="color:#fff;">08137434299</a> </p>
             </div>
            <div class="span6">
 
@@ -81,6 +81,7 @@
               <li><a href="ttps://www.linkedin.com/in/glory-nwa-8a2a27103/" data-placement="bottom" title="Linkedin"><i class="icon-linkedin icon-white"></i></a></li>
                 <!-- <li><a href="#" data-placement="bottom" title="Facebook"><i class="icon-facebook icon-white"></i></a></li> -->
                 <li><a href="https://github.com/GloryNwa/" data-placement="bottom" title="GitHub"><i class="icon-github icon-white"></i></a></li>
+                <li><a  href="https://api.whatsapp.com/send?phone=+2347068057873" data-placement="bottom" title="Whatsapp"><i class="icon-whatsapp icon-white"></i></a></li>
                 
                 <!-- <li><a href="#" data-placement="bottom" title="twitter"><i class="icon-twitter  icon-white"></i></a></li> -->
                 <!-- <li><a href="#" data-placement="bottom" title="Google +"><i class="icon-google-plus icon-white"></i></a></li>

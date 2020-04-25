@@ -101,6 +101,7 @@ if(isset($_POST["submit"])){
                  <option value="">Select Payment Type</option>
                   <option value="55000">One Time Payment (#55,000)</option>
                   <option value="30000">Two Times Payment (#30,000)</option>
+                  <option value="30000">Promo Price - 3 months (#15,000)</option>
                 </select>
                 </div>
                 <div class="span8 form-group">

@@ -43,7 +43,7 @@
                 <a href="services.php"><li class="url">What We Do</li></a>
                 <a href="team.php"><li class="url">Our Team</li></a>
                 <a href="privacy.php"><li class="url">Privacy Policy</li></a>
-                <a href="terms.php"><li class="url">Term and Conditions</li></a>
+                <a href="terms.php"><li class="url">Project Terms</li></a>
                <!--  <li><a href="#">Press release</a></li> -->
               <!--   <li><a href="#">What we have done</a></li> -->
                </ul>
@@ -100,9 +100,9 @@
             Jakarta 13426 Indonesia
       </address> -->
               <p style="color: #fff">
-              <i class="icon-phone" style="color: #ff5821"></i> +2347068057873 / +2348137434299 <br>
-              <i class="icon-envelope-alt" style="color: #ff5821"></i> contact@brilliantdevelopers.net<br>
-                <i class="icon-envelope-alt" style="color: #ff5821"></i> techiebabes@gmail.com
+              <i class="icon-phone" style="color: #ff5821"></i> <a class="url" href="tel:+07068057873" style="color:#fff;">07068057873 </a>, <a class="url" href="tel:+08137434299" style="color:#fff;">08137434299</a><br>
+                <!-- <i class="icon-envelope-alt" style="color: #ff5821"></i> <a class="url"href="mailto: contact@brilliantdevelopers.net?Subject=Hello! Welcome to Brilliant Developers" target="_top" style="color:#fff;">contact@brilliantdevelopers.net</a><br> -->
+                <i class="icon-envelope-alt" style="color: #ff5821"></i> <a class="url"href="mailto: techiebabes@gmail.com?Subject=Hello! Welcome to Brilliant Developers" target="_top" style="color:#fff;">techiebabes@gmail.com</a>
               </p>
                 <hr>   
               <h5 style="color:#fff">Number Guessing Game</h5>
@@ -149,6 +149,11 @@
   <!-- javascript
     ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
+  <a href="#" class="scrollup" style="background-color:#ff5821 !important "><i class="icon-angle-up icon-square icon-bglight icon-2x"></i></a>
+
+  <!-- javascript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
   <script src="js/jquery.js"></script>
   <script src="js/jquery.easing.1.3.js"></script>
   <script src="js/bootstrap.js"></script>
@@ -168,11 +173,56 @@
   <script src="js/animate.js"></script>
   <script src="js/inview.js"></script>
 
+  <script src="https://js.paystack.co/v1/inline.js"></script>
+
   <!-- Template Custom JavaScript File -->
   <script src="js/custom.js"></script>
 
    <script src="js/guesser.js"></script>
-   <script src="js/alert.js"></script>
+
+   <script type="text/javascript">
+     function payWithPaystack(glory){
+
+    var handler = PaystackPop.setup({
+      key: 'pk_test_76077b21fc087731cb271079ee8063506132c903',
+      email: glory['email'],
+      amount: glory['amount'] * 100,
+      currency: "NGN",
+      ref: ''+Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
+      metadata: {
+         custom_fields: [
+            {
+                display_name: glory['fname'] + ' ' + glory['lname'],
+                variable_name: "mobile_number",
+                value: glory['phone']
+            }
+         ]
+      },
+      callback: function(response){
+          var ref = response.reference;
+
+          var bright = {};
+          bright.fname = glory['fname'];
+          bright.lname = glory['lname'];
+          bright.phone = glory['phone'];
+          bright.ref = ref;
+
+          $.ajax({
+            method: "post",
+            data: bright,
+            url: "verify.php",
+            success: function(nwa){
+              console.log(nwa);
+            }
+          });
+      },
+      onClose: function(){
+          // alert('window closed');
+      }
+    });
+    handler.openIframe();
+  }
+   </script>
 </body>
 </html>
    

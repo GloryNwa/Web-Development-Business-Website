@@ -87,7 +87,7 @@
                 <a href="services.php"><li class="url">What We Do</li></a>
                 <a href="team.php"><li class="url">Our Team</li></a>
                 <a href="privacy.php"><li class="url">Privacy Policy</li></a>
-                <a href="terms.php"><li class="url">Term and Conditions</li></a>
+                <a href="terms.php"><li class="url">Project Terms</li></a>
                <!--  <li><a href="#">Press release</a></li> -->
               <!--   <li><a href="#">What we have done</a></li> -->
                </ul>
@@ -139,9 +139,9 @@
             <div class="widget">
               <h5 class="widgetheading">Get in touch</h5>
               <p style="color: #fff">
-                <i class="icon-phone" style="color: #ff5821"></i> +2347068057873 / +2348137434299 <br>
-                <i class="icon-envelope-alt" style="color: #ff5821"></i> contact@brilliantdevelopers.net<br>
-                <i class="icon-envelope-alt" style="color: #ff5821"></i> techiebabes@gmail.com
+              <i class="icon-phone" style="color: #ff5821"></i> <a class="url" href="tel:+07068057873"style="color:#fff;">07068057873 </a>, <a class="url"href="tel:+08137434299" style="color:#fff;">08137434299</a> <br>
+                <!-- <i class="icon-envelope-alt" style="color: #ff5821"></i> <a class="url"href="mailto: contact@brilliantdevelopers.net?Subject=Hello! Welcome to Brilliant Developers" target="_top" style="color:#fff;">contact@brilliantdevelopers.net</a><br> -->
+                <i class="icon-envelope-alt" style="color: #ff5821"></i> <a  class="url"href="mailto: techiebabes@gmail.com?Subject=Hello! Welcome to Brilliant Developers" target="_top" style="color:#fff;">techiebabes@gmail.com</a> 
               </p>
            
              <hr>   

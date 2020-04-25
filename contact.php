@@ -126,11 +126,11 @@ if(isset($_POST["submit"])){
                 <h5 class="widgetheading" style="color:#fff">Contact information<span></span></h5>
 
                 <ul class="contact-info">
-                <i class="icon-phone" style="color: #ff5821"></i> +2347068057873 / +2348137434299 <br>
-                <i class="icon-envelope-alt" style="color: #ff5821"></i> contact@brilliantdevelopers.net<br>
-                <i class="icon-envelope-alt" style="color: #ff5821"></i> techiebabes@gmail.com
+                <i class="icon-phone" style="color: #ff5821"></i> <a class="url" href="tel:+07068057873" style="color:#fff;">07068057873 </a>, <a class="url" href="tel:+08137434299" style="color:#fff;">08137434299</a><br>
+                <i class="icon-envelope-alt" style="color: #ff5821"></i> <a class="url"href="mailto: contact@brilliantdevelopers.net?Subject=Hello! Welcome to Brilliant Developers" target="_top" style="color:#fff;">contact@brilliantdevelopers.net</a><br>
+                <i class="icon-envelope-alt" style="color: #ff5821"></i> <a class="url"href="mailto: techiebabes@gmail.com?Subject=Hello! Welcome to Brilliant Developers" target="_top" style="color:#fff;">techiebabes@gmail.com</a>
                 </ul>
-
+            
               </div>
             </aside>
           </div>

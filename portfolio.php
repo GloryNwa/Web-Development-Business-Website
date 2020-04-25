@@ -77,11 +77,13 @@
               <nav style="margin-left:90px">
                   <ul class="nav topnav">
                     <li class="dropdown"  style="background-color:#ff5821!important">
-                      <a href="index.php"class="home active a" style="color:#fff;font-size:15px!important"><i class="icon-home" style="color:#fff"></i> Home</i></a>
+                      <a href="index.php"class="home active a" style="color:#fff;font-size:13px!important"><i class="icon-home" style="color:#fff"></i> Home</i></a>
                     </li>
-                    
+                    <li>
+                      <a href="about.php" class="a" style="color:#fff;font-size:15px!important">About Us</a>
+                    </li>
 
-                    <li class="dropdown">
+                    <!-- <li class="dropdown">
                       <a href="#"  class="a" style="color:#fff;font-size:15px!important">Our Company<i class="icon-angle-down"></i></a>
                       <ul class="dropdown-menu">
                         <li><a href="about.php" class="a">About us</a></li>                      
@@ -91,9 +93,8 @@
                         <li><a href="team.php"  class="a">Our Team</a></li>
                         <li><a href="privacy.php" class="a">Privacy Policy</a></li>
                         <li><a href="terms.php"  class="a">Project Terms</a></li>
-                     <!--    <li><a href="404.html">404</a></li> -->
                       </ul>
-                    </li>
+                    </li> -->
                      <li>
                       <a href="solutions.php" class="a" style="color:#fff;font-size:15px!important">Our Solutions</a>
                     </li>
@@ -126,7 +127,7 @@
                 
                  <li class="active"> </li></a>&nbsp;|&nbsp;
                  <a href="about.php"><li style="color:#ff5821">About Us</li></a>&nbsp;|&nbsp;
-                  <a href="solutions.php"><li style="color:#ff5821">Our Solution</li></a>&nbsp;|&nbsp;
+                  <a href="solutions.php"><li style="color:#ff5821">Our Solution</li></a>&nbsp;|
                   <a href="contact.php"><li style="color:#ff5821">Contact Us</li></a>&nbsp;
               </ul>
                  <!--   <li class="active">Portfolio</li> -->
@@ -273,10 +274,10 @@
 
            <div class="span4">
             <div class="widget">
-              <p style="color: #fff">
-                <i class="icon-phone" style="color: #ff5821"></i> +2347068057873 / +2348137434299 <br>
-                <i class="icon-envelope-alt" style="color: #ff5821"></i> contact@brilliantdevelopers.net<br>
-                <i class="icon-envelope-alt" style="color: #ff5821"></i> techiebabes@gmail.com
+            <p>
+                <i class="icon-phone" style="color: #ff5821"></i> <a href="tel:+07068057873"style="color:#fff;">07068057873 </a>, <a href="tel:+08137434299" style="color:#fff;">08137434299</a> <br>
+                <!-- <i class="icon-envelope-alt" style="color: #ff5821"></i><a href="mailto: contact@brilliantdevelopers.net?Subject=Hello! Welcome to Brilliant Developers" target="_top" style="color:#fff;">contact@brilliantdevelopers.net</a><br> -->
+                <i class="icon-envelope-alt" style="color: #ff5821"></i> <a href="mailto: techiebabes@gmail.com?Subject=Hello! Welcome to Brilliant Developers" target="_top" style="color:#fff;">techiebabes@gmail.com</a> 
               </p>
                 <hr>   
               <h5 style="color:#fff">Number Guessing Game</h5>
