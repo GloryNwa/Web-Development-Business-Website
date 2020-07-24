@@ -22,9 +22,10 @@
 
     <section id="content">
       <div class="container">
-        <div class="row">
+    
 
        <?php include ("ourPlans.php");?>
+
       </div>
     </section>
 <?php include("footer3.php");?>

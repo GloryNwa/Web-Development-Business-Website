@@ -11,11 +11,12 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Brilliant Developers - Professional Web And Mobile Application Developers</title>
+  <title>Brilliant Developers - Professional Web Application Developers</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Your page description here" />
   <meta name="author" content="" />
-
+ <!-- Favicon icon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/fav32.png">
   <!-- css -->
   <link href="https://fonts.googleapis.com/css?family=Handlee|Open+Sans:300,400,600,700,800" rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">

@@ -37,7 +37,7 @@
                      <h6>Welcome to Brilliant Developers!</h6>
                      <br>
 <div style="border: 10px dotted; background-color:align:center;padding:8px"> <br>               
-<h5 style="color:#ff5821;padding-left:5px">PROJECT TERMS</h5>
+<h5 style="color:#ff5821;padding-left:15px">PROJECT TERMS</h5>
 <div style=" color:#000">
 <ul>
     <li>All estimates/quotes are based on our understanding of your requirements and as per given time-frame. Any changes to the functionality including micro-improvements, may delay your work. Please ensure and clarify our understanding
@@ -67,7 +67,7 @@
     <li>Brilliant Developers owns copyrights of all codes written for any client, unless arrangements are made prior to start of the project. <!-- Brilliant Developers warrants a license to use any custom built software for the client, for their use only. This license is granted -->
 <!--         while paying for the hosting. -->
         </li>
-    <li>The website or software application will be designed to be deployed on the web, via using a commercial grade web-server or a similar setup. Based on your website traffic, the website may not perform if deployed on a generic office network environment.</li>
+    <li>The website or software application will be design to be deploy on the web, via using a commercial grade web-server or a similar setup. Based on your website traffic, the website may not perform if deployed on a generic office network environment.</li>
     <li>Depending upon the functionalities required, there may be 3rd party components such as Third Party Payment Gateways or SSL certificates involved in building a website/application. Although Brilliant Developers does its best in recognising the suitability
         of any such component, any unforeseen limitations of 3rd party components are beyond our control.<!--  Any third-party component purchase costs (such as SSL, Payment gateway, Google Adwords, Plug-in licenses etc) are not included in our quotes.</li> -->
     <li>Brilliant Developers takes no responsibility of any open source products such as WordPress, Open Source carts, Joomla etc. It is clients responsibility to update all components and third party softwares. We suggest you to take regular back-ups to avoid any
@@ -97,7 +97,7 @@ Maintenance packages are billed annually, however are paid monthly via any mode 
 <!-- <p>Brilliant Developers employs fair use policy, which means that although we don&rsquo;t formally transfer over any unused time to the next month or formally accumulate unused man-hours, we do understand that your needs may change from month to month, and we allow
     flexibility in good faith sometimes.</p>
 <p>Any extra hours used will be billed separately.</p>
- --><p>Support requests need to be sent via email to contact@brilliantdevevelopers.net</p>
+ --><p>Support requests need to be sent via email to contactbrilliantdevelopers@gmail.com or </p>
 <!-- <p>Any urgent tasks will be charged separately.</p> -->
 <p>The package is auto renewed every year on its anniversary date.</p>
 <p><strong>Payment terms:</strong><br>Monthly maintenance package fees require cheque payment or bank transfer payment only. More than three missed payments in a year may attract termination of the package and the client will need to pay immediately the entire remaining amount on the package.</p>

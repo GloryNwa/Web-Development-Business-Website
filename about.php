@@ -24,14 +24,14 @@
       <div class="card">
        <div class="card-content">
         <div class="row">
-          <div class="span12">
+          <div class="span11">
             <h4><b> WHO WE ARE</b></h4>
             <p>
           
 We are driven by group of Young Brilliant Web Developers, Strategic Thinkers, Creative Designers, Programmers, IT Consultants and Software Managers. Developing and managing several web projects in Nigeria and abroad.
             </p>
             <p>
-              <p>Brilliant Developers was established by a team of professionals who are developers, programmers, IT consultants and software managers in 2018.<br> The organization from inception has been driven by group of IT experts and has developed and manage several web projects to her credits.</p>
+              <p>Brilliant Developers was established by a team of IT professionals in 2018. The organization from inception has been driven by group of IT experts and has developed and manage several web projects to her credits.</p>
 <p>We specialize in world class Web Design, Development, Programming, Sophisticated Web-Base Applications, E-commerce System, Web portal, Content Management System, Content Development, Database Design and Development etc. Brilliant Developers features an integrated team of web experts who knows how to get the <b>Real World Results.</b></p>
 <p>Our business-driven approach differentiates us from typical web development companies. For the past few years we have built up a reputation for creating a positive return on investment <b>(ROI)</b> for our clients. If you are serious about your business online solution, we can get you there. - Discover the Developers Difference.</p>
 </div>

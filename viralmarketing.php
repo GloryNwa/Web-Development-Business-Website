@@ -60,9 +60,14 @@
               
             </div>
           </div>
-          <br><br>
+  
           <div class="span6">
             <img src="img/digit0.jpg" width="100%" alt="" class="flyRight" />
+            <!-- <br><br>
+            <hr>
+            <br><br>
+            <img src="img/teach.png" width="100%" alt="" class="flyRight" /> -->
+         
           </div>
 
         </div>

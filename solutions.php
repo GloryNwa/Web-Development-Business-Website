@@ -28,7 +28,7 @@
             <h5><b>Our Solutions</b><span class="colored"></span></h5>
            <p> We are Brilliant Developers, we Provide
 Solutions that
-brings Joy,we can be your digital Problems Solution Partner.
+brings Joy,<br>We can be your digital Problems Solution Partner.
 <!-- inappropriate behavior is often laughed off as “boys will be
 boys,” women face higher conduct standards especially
 in the workplace. That’s why it’s crucial that, as women, our

@@ -38,7 +38,7 @@
                     <ul> 
                       <li><i class="icon-ok"></i> Well designed and dynamic, just 1 page website</li>
                        <li><i class="icon-ok"></i>You can add additional pages later</li>
-                        <li><i class="icon-ok"></i>I year Hosting Plan and a <br> Domain Registration +SSL Certificate</li> 
+                        <li><i class="icon-ok"></i>I year Hosting Plan and a <br> Domain Registration</li> 
                         <li><i class="icon-ok"></i>Custom Website Email - Up to 2 Emails</li>
                         <li><i class="icon-ok"></i>Admin Management Dashboard</li>
                        <li><i class="icon-ok"></i> 24x7 support system</li>
@@ -73,7 +73,7 @@
                     <ul>
                       <li><i class="icon-ok"></i>Well designed & dynamic, up to 10 pages website</li>
                        <li><i class="icon-ok"></i>You can add additional pages later</li>
-                       <li><i class="icon-ok"></i>I year Hosting Plan and a <br> Domain Registration + SSL Certificate</li>
+                       <li><i class="icon-ok"></i>I year Hosting Plan and a <br> Domain Registration</li> <li><i class="icon-ok"></i>SSL Certificates (HTTPS security)</li>
                        <li><i class="icon-ok"></i>Site Capacity Storage - Limited</li>
                        <li><i class="icon-ok"></i>Custom Website Email - Up to 5 Emails</li>
                        <li><i class="icon-ok"></i>Admin Management Dashboard</li> 
@@ -108,7 +108,8 @@
                     <ul>
                      <li><i class="icon-ok"></i>Well designed & dynamic website</li>
                        <li><i class="icon-ok"></i>You can add additional pages later</li>
-                       <li><i class="icon-ok"></i>I year Hosting Plan and <br> Domain Registration + SSL Certificate and Files Backup</li>
+                       <li><i class="icon-ok"></i>I year Hosting Plan and <br> Domain Registration</li>
+                     <li><i class="icon-ok"></i>SSL Certificates (HTTPS security)</li>
                        <li><i class="icon-ok"></i>Site Capacity Storage - Unlimited</li>
                        <li><i class="icon-ok"></i>Custom Website Email - As Many As 10 Emails</li>
                         <li><i class="icon-ok"></i>Content Management System + <br>Visitors Analytics</li>
@@ -139,7 +140,8 @@
                     <ul>
                       <li><i class="icon-ok"></i>Well designed & dynamic online store </li>
                       <li><i class="icon-ok"></i>fully integrated with card payment <br>facility</li>
-                     <li><i class="icon-ok"></i>I year Hosting Plan and <br> Domain Registration + SSL Certificate and Files Backup
+                     <li><i class="icon-ok"></i>I year Hosting Plan and <br> Domain Registration 
+                     <li><i class="icon-ok"></i>SSL Certificates (HTTPS security)</li>
                      <li><i class="icon-ok"></i>Site Capacity Storage - Unlimited</li>
                        <li><i class="icon-ok"></i>Custom Website Email - As Many As Possible</li>
                       <li><i class="icon-ok"></i>Content Management System +<br>Visitors Analytics</li>
@@ -157,6 +159,6 @@
                 </div>
               </div>
             </div>
-
+           
           </div>
         </div>

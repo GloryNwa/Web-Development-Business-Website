@@ -23,10 +23,11 @@
       <div class="container">
         <div class="row">
 
-          <div class="span12">
+          <div class="span11">
             <h4 class="title"><b>WHAT WE DO</b></h4>
             <p>
-              Brilliant Developers specializes in website Design, Development, Programming, Digital and Social Media Martketing services. Our web experiences are high-performing, feature-packed and digitally transformative. We provides Expert Web Solution Services to our clients.
+              Brilliant Developers specializes in Web Design, Development, Programming, Sophisticated Web-Base Applications, E-commerce System, Web portal, Content Management System, Website Maintainance & Upgrade, Content Development, Database Design and Development, Web Development Training etc.
+              <p> Our web experiences are high-performing, feature-packed and digitally transformative. We provides Expert Web Solution Services to our clients. <a href="contact.php" style="color:#ff5821">Contact us today!</a></p>
             </p>
           </div>
         </div>
@@ -116,6 +117,7 @@
         </div>
       </div>
 
-    </section>
+    </section><br/>
+<hr>
 
 <?php include("footerr.php");?>

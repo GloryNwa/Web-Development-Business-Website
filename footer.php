@@ -70,7 +70,7 @@
               <p>
                 <i class="icon-phone" style="color: #ff5821"></i> <a href="tel:+07068057873"style="color:#fff;">07068057873 </a>, <a href="tel:+08137434299" style="color:#fff;">08137434299</a> <br>
                 <!-- <i class="icon-envelope-alt" style="color: #ff5821"></i><a href="mailto: contact@brilliantdevelopers.net?Subject=Hello! Welcome to Brilliant Developers" target="_top" style="color:#fff;">contact@brilliantdevelopers.net</a><br> -->
-                <i class="icon-envelope-alt" style="color: #ff5821"></i> <a href="mailto: techiebabes@gmail.com?Subject=Hello! Welcome to Brilliant Developers" target="_top" style="color:#fff;">techiebabes@gmail.com</a> 
+                <i class="icon-envelope-alt" style="color: #ff5821"></i> <a href="mailto: techiebabes@gmail.com?Subject=Hello! Welcome to Brilliant Developers" target="_top" style="color:#fff;">techiebabe@gmail.com  </a> 
               </p>
             </div>
           </div> 
